@@ -1,0 +1,11 @@
+Notes log for EAD Mini Project.
+
+= Introduction =
+
+This project is an on-line dating web service with a Windows Phone App.
+
+
+= Details =
+
+Use Case diagrams added by Colin.
+Use Case descriptions added by Louise.
