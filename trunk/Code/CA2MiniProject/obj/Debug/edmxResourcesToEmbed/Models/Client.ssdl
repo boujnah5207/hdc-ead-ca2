@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClientsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ClientsModelStoreContainer">
+    <EntitySet Name="Client" EntityType="ClientsModel.Store.Client" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Phone_Number" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Post_Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="varchar" MaxLength="50" />
+    <Property Name="Looking_For" Type="nvarchar" MaxLength="50" />
+    <Property Name="Interest_1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Interest_2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Interest_3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ID" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+</Schema>
