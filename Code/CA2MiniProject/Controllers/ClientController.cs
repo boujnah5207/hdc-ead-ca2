@@ -4,6 +4,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
+using System.Web.Mvc;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
@@ -14,7 +16,7 @@ using CA2MiniProject.Models;                  // Client information model class
 namespace CA2MiniProject.Controllers
 {
     public class ClientController : ApiController
-         {
+    {
         /*
         * GET /api/client                  get client information                      GetAllClientInfo()
         * GET /api/client/name             get client information for name             GetClientInfoForCity(name)
@@ -35,50 +37,38 @@ namespace CA2MiniProject.Controllers
         // GET api/client
         public IEnumerable<ClientInfo> GetAllClientInfo()
         {
-            return client;                                                     
+            return client;
         }
 
-        // GET api/client/Dublin or api/client?city=Dublin
+        // GET api/client/frank or api/client?name=frank
         public ClientInfo GetClientInfoForCity(String id)
         {
-            // LINQ query, find matching city (case-insensitive) or default value (null) if none matching
+            // LINQ query, find matching name (case-insensitive) or default value (null) if none matching
             ClientInfo clientSearch = client.FirstOrDefault(w => w.ID.ToUpper() == id.ToUpper());
             if (clientSearch == null)
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);       // translated into a http response status code 404
             }
-            return clientSearch;                                                 
+            return clientSearch;
         }
 
     }
 
     //public class ClientController : ApiController
     //{
-    //    // GET api/values
-    //    public IEnumerable<string> Get()
-    //    {
-    //        return new string[] { "value1", "value2" };
-    //    }
+    //    ClientEntities clientDB = new ClientEntities();                  // context object
 
-    //    // GET api/values/5
-    //    public string Get(int id)
+    //    // lookup a name
+    //    // GET /api/client/frank
+    //    public String GetName(String name)
     //    {
-    //        return "value";
-    //    }
-
-    //    // POST api/values
-    //    public void Post([FromBody]string value)
-    //    {
-    //    }
-
-    //    // PUT api/values/5
-    //    public void Put(int id, [FromBody]string value)
-    //    {
-    //    }
-
-    //    // DELETE api/values/5
-    //    public void Delete(int id)
-    //    {
+    //        // LINQ query, find matching entry (case-insensitive) or default value (null) if none matching
+    //        var clientEntry = clientDB.Clients.FirstOrDefault(entry => (entry.Name.ToUpper() == name.ToUpper()));
+    //        if (clientEntry == null)
+    //        {
+    //            throw new HttpResponseException(HttpStatusCode.NotFound);
+    //        }
+    //        return clientEntry.ToString();
     //    }
     //}
 }
