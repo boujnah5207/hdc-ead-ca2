@@ -6,7 +6,7 @@ using System.Web;
 
 namespace CA2MiniProject.Models
 {
-    public class ClientInfo
+    public class MatchInfo
     {
         // The ID 
         [Required(ErrorMessage = "Not a Valid ID")]
@@ -15,70 +15,70 @@ namespace CA2MiniProject.Models
             get;
             set;
         }
-        // Client Name
+        // Match Name
         [Range(-50, 50, ErrorMessage = "Not a Valid  Name")]
         public String Name
         {
             get;
             set;
         }
-        // Client Age
+        // Match Age
         [Range(0, 200, ErrorMessage = "Not a Valid Age")]
         public int Age
         {
             get;
             set;
         }
-        // Client Phone_Number    
+        // Match Phone_Number    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Phone_Number
         {
             get;
             set;
         }
-        // Client Email    
+        // Match Email    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Email
         {
             get;
             set;
         }
-        // Client Post_Code    
+        // Match Post_Code    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Post_Code
         {
             get;
             set;
         }
-        // Client Gender    
+        // Match Gender    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Gender
         {
-            get;    
+            get;
             set;
         }
-        // Client Looking_For    
+        // Match Looking_For    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Looking_For
         {
             get;
             set;
         }
-        // Client Interest_1    
+        // Match Interest_1    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Interest_1
         {
             get;
             set;
         }
-        // Client Interest_2    
+        // Match Interest_2    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Interest_2
         {
             get;
             set;
         }
-        // Client Interest_1    
+        // Match Interest_1    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Interest_3
         {
