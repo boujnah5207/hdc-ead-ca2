@@ -1,5 +1,5 @@
 ﻿// a RESFul service which reports Client information
-// By Louise Foley X number here & Collin Walsh X00115912
+// By Louise Foley X0011597 number here & Collin Walsh X00115912
 
 using System;
 using System.Collections.Generic;
@@ -15,41 +15,41 @@ using CA2MiniProject.Models;                  // Client information model class
 
 namespace CA2MiniProject.Controllers
 {
-    public class ClientController : ApiController
+    public class MatchController : ApiController
     {
         /*
-        * GET /api/client                  get client information                      GetAllClientInfo()
-        * GET /api/client/name             get client information for name             GetClientInfoForCity(name)
+        * GET /api/match                  get match information                      GetAllMatchInfo()
+        * GET /api/match/name             get match number for name                  GetMatchNumber(name)
         */
 
-        private List<ClientInfo> client;
+        private List<ClientInfo> match;
 
-        // initialise the client collection, stateless
-        public ClientController()
+        // initialise the match collection, stateless
+        public MatchController()
         {
-            client = new List<ClientInfo>() 
+            match = new List<MatchInfo>() 
                 { 
-                    new ClientInfo { ID = "x9864", Name = "Peter", Age = 22, Phone_Number = "087451237", Email = "peter@gmail.com", Post_Code = "D24", Gender = "Male", Looking_For = "Female", Interest_1 = "Sport", Interest_2 = "Music", Interest_3 = "Hiking" },
-                    new ClientInfo { ID = "x9865", Name = "Frank", Age = 23, Phone_Number = "087451236", Email = "Frank@gmail.com", Post_Code = "D24", Gender = "Male", Looking_For = "Female", Interest_1 = "Sport", Interest_2 = "Music", Interest_3 = "Hiking" },
+                    new MatchInfo { ID = "x9864", Name = "Peter", Age = 22, Phone_Number = "087451237", Email = "peter@gmail.com", Post_Code = "D24", Gender = "Male", Looking_For = "Female", Interest_1 = "Sport", Interest_2 = "Music", Interest_3 = "Hiking" },
+                    new MatchInfo { ID = "x9865", Name = "Frank", Age = 23, Phone_Number = "087451236", Email = "Frank@gmail.com", Post_Code = "D24", Gender = "Male", Looking_For = "Female", Interest_1 = "Sport", Interest_2 = "Music", Interest_3 = "Hiking" },
                 };
         }
 
-        // GET api/client
-        public IEnumerable<ClientInfo> GetAllClientInfo()
+        // GET api/match
+        public IEnumerable<MatchInfo> GetAllMatchInfo()
         {
-            return client;
+            return match;
         }
 
-        // GET api/client/frank or api/client?name=frank
-        public ClientInfo GetClientInfoForCity(String id)
+        // GET api/match/frank or api/match?name=frank
+        public String GetMatchNumber(String name)
         {
             // LINQ query, find matching name (case-insensitive) or default value (null) if none matching
-            ClientInfo clientSearch = client.FirstOrDefault(w => w.ID.ToUpper() == id.ToUpper());
-            if (clientSearch == null)
+            MatchInfo matchSearch = match.FirstOrDefault(w => w.Name.ToUpper() == name.ToUpper());
+            if (matchSearch == null)
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);       // translated into a http response status code 404
             }
-            return clientSearch;
+            return matchSearch.Phone_Number;
         }
 
     }
