@@ -22,7 +22,7 @@ namespace CA2MiniProject.Controllers
         * GET /api/match/name             get match number for name                  GetMatchNumber(name)
         */
 
-        private List<ClientInfo> match;
+        private List<MatchInfo> match;
 
         // initialise the match collection, stateless
         public MatchController()
