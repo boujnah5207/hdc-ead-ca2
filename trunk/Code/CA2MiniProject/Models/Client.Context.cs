@@ -25,6 +25,6 @@ namespace CA2MiniProject.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<Client> Clients { get; set; }
+        public DbSet<Match> Matches { get; set; }
     }
 }

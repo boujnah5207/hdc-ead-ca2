@@ -30,9 +30,9 @@
     <edmx:ConceptualModels>
       <Schema Namespace="ClientsModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="ClientEntities" p1:LazyLoadingEnabled="true">
-          <EntitySet Name="Clients" EntityType="ClientsModel.Client" />
+          <EntitySet Name="Matches" EntityType="ClientsModel.Match" />
         </EntityContainer>
-        <EntityType Name="Client">
+        <EntityType Name="Match">
           <Key>
             <PropertyRef Name="ID" />
           </Key>
@@ -54,8 +54,8 @@
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="ClientsModelStoreContainer" CdmEntityContainer="ClientEntities">
-          <EntitySetMapping Name="Clients">
-            <EntityTypeMapping TypeName="ClientsModel.Client">
+          <EntitySetMapping Name="Matches">
+            <EntityTypeMapping TypeName="ClientsModel.Match">
               <MappingFragment StoreEntitySet="Client">
                 <ScalarProperty Name="Name" ColumnName="Name" />
                 <ScalarProperty Name="Age" ColumnName="Age" />
