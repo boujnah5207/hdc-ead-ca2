@@ -186,6 +186,9 @@
       <DependentUpon>Client.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ClientModel.cs" />
+    <Compile Include="Models\Match.cs">
+      <DependentUpon>Client.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -317,6 +320,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\EditPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

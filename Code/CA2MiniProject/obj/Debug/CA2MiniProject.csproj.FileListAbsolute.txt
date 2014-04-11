@@ -138,3 +138,6 @@ G:\College Work\EAM\Term 2\CA2 Mini Project\Code\CA2MiniProject\bin\ko\System.Sp
 G:\College Work\EAM\Term 2\CA2 Mini Project\Code\CA2MiniProject\bin\ru\System.Spatial.resources.dll
 G:\College Work\EAM\Term 2\CA2 Mini Project\Code\CA2MiniProject\bin\zh-Hans\System.Spatial.resources.dll
 G:\College Work\EAM\Term 2\CA2 Mini Project\Code\CA2MiniProject\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\obj\Debug\CA2MiniProject.csprojResolveAssemblyReference.cache
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\obj\Debug\CA2MiniProject.dll
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\obj\Debug\CA2MiniProject.pdb

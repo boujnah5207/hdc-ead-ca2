@@ -6,8 +6,39 @@ using System.Web;
 
 namespace CA2MiniProject.Models
 {
-    public class MatchInfo
+    public partial class MatchInfo
     {
+        public static string[] PostCodeOptions
+        {
+            get
+            {
+                return new String[] { "Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Derry", "Donegal", "Down", "Dublin", "Fermanagh", "Galway", "Kerry", "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath","Monaghan", "Offaly", "Roscommon", "Sligo", "Tipperary", "Tyrone", "Waterford", "Westmeath", "Wexford", "Wicklow" };
+            }
+        }
+        public static string[] Interest1Descriptions
+        {
+            get
+            {
+                return new String[] { "Music", "Current Affairs", "Environment" };
+            }
+        }
+
+        public static string[] Interest2Descriptions
+        {
+            get
+            {
+                return new String[] { "Film", "History", "Cooking" };
+            }
+        }
+
+        public static string[] Interest3Descriptions
+        {
+            get
+            {
+                return new String[] { "Sport", "Technology", "Charity Work" };
+            }
+        }
+
         // The ID 
         [Required(ErrorMessage = "Not a Valid ID")]
         public String ID
