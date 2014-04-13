@@ -8,14 +8,51 @@ using CA2MiniProject.Models;
 namespace CA2MiniProject.Controllers
 {
     public class HomeController : Controller
-    {   [HttpGet]
-        public ActionResult EditPage()
+    {
+        [HttpPost]
+        public ActionResult EditPage(Match match)
         {
-            ViewBag.PostCode = new SelectList(MatchInfo.PostCodeOptions);
-            ViewBag.Interest1 = new SelectList(MatchInfo.Interest1Descriptions);
-            ViewBag.Interest2 = new SelectList(Enumerable.Empty<SelectList>(), MatchInfo.Interest2Descriptions);
-            ViewBag.Interest3 = new SelectList(Enumerable.Empty<SelectList>(), MatchInfo.Interest3Descriptions);
-            return View();
+            try
+            {
+                 if (ModelState.IsValid)
+                 {
+                     db.Match.Add(match);
+                     db.SaveChanges();
+                      return RedirectToAction("EditPage");
+                 }
+            }
+            catch (DataException EX)
+            {
+                if (EX.InnerException.InnerException.Message.Contains("ID"))
+                {
+                    ModelState.AddModelError("ID", "ID must be unique.");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Unable to save changes.");
+                }
+            }
+            
+                ViewBag.Post_Code = new SelectList(MatchInfo.PostCodeOptions);
+                ViewBag.Interest_1 = new SelectList(MatchInfo.Interest1Descriptions);
+                ViewBag.Interest_2 = new SelectList(MatchInfo.Interest2Descriptions);
+                ViewBag.Interest_3 = new SelectList(MatchInfo.Interest3Descriptions);
+                return View();
+            
         }
+
+    [HttpGet]
+        public ActionResult Find(int ID = 0)
+        {
+            Match match = db.Match.Find(ID);
+            if (match == null)
+            {
+                return HttpNotFound();
+            }
+            
+            return View(match);
+        }
+
     }
 }
+
