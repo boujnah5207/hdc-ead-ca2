@@ -1,0 +1,16 @@
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\ClientClient.exe.config
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\obj\Debug\ClientClient.csprojResolveAssemblyReference.cache
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\ClientClient.exe
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\ClientClient.pdb
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\System.Web.Http.dll
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\System.Web.Razor.dll
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\System.Web.Http.xml
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\bin\Debug\System.Web.Razor.xml
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\obj\Debug\ClientClient.exe
+C:\Users\Louise\Documents\Project\Code\CA2MiniProject\ClientClient\ClientClient\obj\Debug\ClientClient.pdb

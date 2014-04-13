@@ -6,8 +6,19 @@ using System.Web;
 
 namespace CA2MiniProject.Models
 {
-    public partial class MatchInfo
+    public class MatchContext : DbContext
+ {
+        public MatchContext()
+            : base("DefaultConnection")
+        {
+        }
+
+        public DbSet<Client> Clients { get; set; }
+    }
+
+    public class MatchInfo
     {
+    
         public static string[] PostCodeOptions
         {
             get
@@ -54,14 +65,14 @@ namespace CA2MiniProject.Models
             set;
         }
         // Match Age
-        [Range(0, 200, ErrorMessage = "Not a Valid Age")]
+        [Range(18, 200, ErrorMessage = "Not a Valid Age")]
         public int Age
         {
             get;
             set;
         }
         // Match Phone_Number    
-        [Required(ErrorMessage = "Invalid Conditions")]
+        [Required(ErrorMessage = "Phone number must be entered")]
         public String Phone_Number
         {
             get;
