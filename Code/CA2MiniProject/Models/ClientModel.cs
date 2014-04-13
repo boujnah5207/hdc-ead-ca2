@@ -6,14 +6,14 @@ using System.Web;
 
 namespace CA2MiniProject.Models
 {
-    public class MatchContext : DbContext
- {
-        public MatchContext()
-            : base("DefaultConnection")
-        {
-        }
+ //   public class MatchContext : DbContext
+ //{
+ //       public MatchContext()
+ //           : base("DefaultConnection")
+ //       {
+ //       }
 
-        public DbSet<Client> Clients { get; set; }
+ //       public DbSet<Client> Clients { get; set; }
     }
 
     public class MatchInfo
@@ -58,7 +58,7 @@ namespace CA2MiniProject.Models
             set;
         }
         // Match Name
-        [Range(-50, 50, ErrorMessage = "Not a Valid  Name")]
+        [Range(-50, 50, ErrorMessage = "Not a Valid Name")]
         public String Name
         {
             get;
@@ -73,13 +73,15 @@ namespace CA2MiniProject.Models
         }
         // Match Phone_Number    
         [Required(ErrorMessage = "Phone number must be entered")]
+        [Display(Name = "Phone Number")]
         public String Phone_Number
         {
             get;
             set;
         }
         // Match Email    
-        [Required(ErrorMessage = "Invalid Conditions")]
+        [Required]
+        [RegularExpression(@".*[@].*[\\.].*", ErrorMessage = "Must contain @ and .")]
         public String Email
         {
             get;
@@ -87,6 +89,7 @@ namespace CA2MiniProject.Models
         }
         // Match Post_Code    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "Post Code")]
         public String Post_Code
         {
             get;
@@ -101,6 +104,7 @@ namespace CA2MiniProject.Models
         }
         // Match Looking_For    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "Looking For")]
         public String Looking_For
         {
             get;
@@ -108,6 +112,7 @@ namespace CA2MiniProject.Models
         }
         // Match Interest_1    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "1st Interest")]
         public String Interest_1
         {
             get;
@@ -115,6 +120,7 @@ namespace CA2MiniProject.Models
         }
         // Match Interest_2    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "2nd interest")]
         public String Interest_2
         {
             get;
@@ -122,10 +128,11 @@ namespace CA2MiniProject.Models
         }
         // Match Interest_1    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "3rd Interest")]
         public String Interest_3
         {
             get;
             set;
         }
     }
-}
+

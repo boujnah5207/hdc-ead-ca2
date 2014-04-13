@@ -5,7 +5,7 @@
 }
 
 <h2>Match Dating Admin Page</h2>
-<p>Use the form below to add or edit users</p>
+<p>Use the form below to add users</p>
 
 @using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
@@ -58,24 +58,20 @@
             @Html.LabelFor(model => model.Gender)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model=>model.Gender)
             @Html.RadioButtonFor(model => model.Gender, "Male", true) Male
             @Html.RadioButtonFor(model => model.Gender, "Female", false) Female
             @Html.ValidationMessageFor(model => model.Gender)
-            @*<input id="Male" type="radio" />
-            <input id="Female" type="radio" />*@
+            
         </div>
 
         <div class="editor-label">
             @Html.LabelFor(model => model.Looking_For)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Looking_For)
             @Html.RadioButtonFor(model => model.Looking_For, "Male", true) Male
             @Html.RadioButtonFor(model => model.Looking_For, "Female", false) Female
             @Html.ValidationMessageFor(model => model.Looking_For)
-            @*<input id="Male" type="radio" />
-                <input id="Female" type="radio" />*@
+          
         </div>
 
         <div class="editor-label">
@@ -102,7 +98,13 @@
             @Html.ValidationMessageFor(model => model.Interest_3, "Please select one interest")
         </div>
 
-        @Html.HiddenFor(model => model.ID)
+        <div class="=editor-label">
+            @Html.LabelFor(model => model.ID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ID)
+            @Html.ValidationMessageFor(model => model.ID, "ID Required")
+        </div>
 
         <p>
             <input type="submit" value="Add" />
