@@ -13,7 +13,7 @@ namespace CA2MiniProject.Controllers
         {
             ViewBag.PostCode = new SelectList(MatchInfo.PostCodeOptions);
             ViewBag.Interest1 = new SelectList(MatchInfo.Interest1Descriptions);
-            ViewBag.Interest2 = new SelectList(Enumerable.Empty<SelectList>(),MatchInfo.Interest2Descriptions);
+            ViewBag.Interest2 = new SelectList(Enumerable.Empty<SelectList>(), MatchInfo.Interest2Descriptions);
             ViewBag.Interest3 = new SelectList(Enumerable.Empty<SelectList>(), MatchInfo.Interest3Descriptions);
             return View();
         }

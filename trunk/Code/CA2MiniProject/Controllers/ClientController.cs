@@ -16,7 +16,7 @@ using CA2MiniProject.Models;                  // Client information model class
 
 namespace CA2MiniProject.Controllers
 {
-    public class MatchController : ApiController
+    public class MatchController : Controller
     {
         /*
         * GET /api/match                  get match information                      GetAllMatchInfo()
@@ -42,7 +42,7 @@ namespace CA2MiniProject.Controllers
         // GET api/match
         public IEnumerable<MatchInfo> GetAllMatchInfo()
         {
-            return match ;
+            return match;
         }
 
         // POST api/Match, request body contains client information serialized as XML or JSON
