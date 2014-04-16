@@ -11,6 +11,8 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Text;
 
+
+
 using CA2MiniProject.Models;                  // Client information model class
 
 
@@ -55,10 +57,10 @@ namespace CA2MiniProject.Controllers
                 int count = context.Match.Where(l => l.ID.ToUpper() == matchSearch.ID.ToUpper()).Count();
                 if (count == 0)
                 {
-                    ClientEntities.Add(matchSearch);
+                    MatchInfo.Add(matchSearch);
 
                     // create http response with Created status code and listing serialised as content and Location header set to URI for new resource
-                    HttpResponseMessage response = Request.CreateResponse<MatchInfo>(HttpStatusCode.Created, matchSearch);
+                    var response = Request.CreateResponse<MatchInfo>(HttpStatusCode.Created, matchSearch);
                     string uri = Url.Link("DefaultApi", new { id = matchSearch.ID });         // name of default route in WebApiConfig.cs
                     response.Headers.Location = new Uri(uri);                                           // Location URI for newly created resource
 
