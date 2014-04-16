@@ -21,9 +21,9 @@ namespace CA2MiniProject.Controllers
                       return RedirectToAction("EditPage");
                  }
             }
-            catch (DataException EX)
+            catch (Exception e)
             {
-                if (EX.InnerException.InnerException.Message.Contains("ID"))
+                if (e.InnerException.InnerException.Message.Contains("ID"))
                 {
                     ModelState.AddModelError("ID", "ID must be unique.");
                 }
