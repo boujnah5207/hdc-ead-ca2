@@ -18,7 +18,7 @@ using CA2MiniProject.Models;                  // Client information model class
 
 namespace CA2MiniProject.Controllers
 {
-    public class MatchController : Controller
+    public class MatchController : ApiController
     {
         /*
         * GET /api/match                  get match information                      GetAllMatchInfo()

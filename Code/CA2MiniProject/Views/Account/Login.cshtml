@@ -1,0 +1,57 @@
+﻿@model CA2MiniProject.Models.LoginModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<section id="loginForm">
+    <p>
+        Please enter your user name and password. @Html.ActionLink("Register", "Register") if you don't have an account.
+    </p>
+
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+    @Html.ValidationSummary(true, "Login was unsuccessful. Please try again.")
+
+    @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+        @Html.AntiForgeryToken()
+
+    <div>
+        <fieldset>
+            <legend>Account Information</legend>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.AdminName)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.AdminName)
+                @Html.ValidationMessageFor(model => model.AdminName)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Password)
+            </div>
+            <div class="editor-field">
+                @Html.PasswordFor(model => model.Password)
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+
+            <div class="editor-label">
+                @Html.CheckBoxFor(model => model.RememberMe)
+                @Html.LabelFor(model => model.RememberMe, new object{ @class="checkbox"})
+            </div>
+
+            <p>
+                <input type="submit" value="Log On" />
+            </p>
+        </fieldset>
+        <p>
+            @Html.ActionLink("Register", "Register") if you don't have an account.
+        </p>
+    </div>
+    }
+</section>
