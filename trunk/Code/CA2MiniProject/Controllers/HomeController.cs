@@ -9,6 +9,7 @@ namespace CA2MiniProject.Controllers
 {
     public class HomeController : Controller
     {
+        // Post to add a new person to db  /Home/EditPage
         [HttpPost]
         public ActionResult EditPage(Match match)
         {
@@ -32,7 +33,8 @@ namespace CA2MiniProject.Controllers
                     ModelState.AddModelError("", "Unable to save changes.");
                 }
             }
-            
+
+                ViewBag.Match = match;
                 ViewBag.Post_Code = new SelectList(MatchInfo.PostCodeOptions);
                 ViewBag.Interest_1 = new SelectList(MatchInfo.Interest1Descriptions);
                 ViewBag.Interest_2 = new SelectList(MatchInfo.Interest2Descriptions);
@@ -41,6 +43,7 @@ namespace CA2MiniProject.Controllers
             
         }
 
+        // Get to return existing person from ID /Home/Find
     [HttpGet]
         public ActionResult Find(int ID = 0)
         {
