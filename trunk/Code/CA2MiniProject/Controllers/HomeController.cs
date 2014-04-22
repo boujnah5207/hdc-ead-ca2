@@ -11,15 +11,13 @@ namespace CA2MiniProject.Controllers
     {
         // Post to add a new person to db  /Home/EditPage
         [HttpPost]
-        public ActionResult EditPage(Match match)
+        public ActionResult EditPage(User user)
         {
             try
             {
                  if (ModelState.IsValid)
                  {
-                     db.Match.Add(match);
-                     db.SaveChanges();
-                      return RedirectToAction("EditPage");
+                     return RedirectToAction("Save", user);
                  }
             }
             catch (Exception e)
@@ -34,26 +32,27 @@ namespace CA2MiniProject.Controllers
                 }
             }
 
-                ViewBag.Match = match;
-                ViewBag.Post_Code = new SelectList(MatchInfo.PostCodeOptions);
-                ViewBag.Interest_1 = new SelectList(MatchInfo.Interest1Descriptions);
-                ViewBag.Interest_2 = new SelectList(MatchInfo.Interest2Descriptions);
-                ViewBag.Interest_3 = new SelectList(MatchInfo.Interest3Descriptions);
+                ViewBag.User = user;
+                ViewBag.Post_Code = new SelectList(UserInfo.PostCodeOptions);
+                ViewBag.Interest_1 = new SelectList(UserInfo.Interest1Descriptions);
+                ViewBag.Interest_2 = new SelectList(UserInfo.Interest2Descriptions);
+                ViewBag.Interest_3 = new SelectList(UserInfo.Interest3Descriptions);
                 return View();
             
         }
 
         // Get to return existing person from ID /Home/Find
     [HttpGet]
+        // find a user based on Id
         public ActionResult Find(int ID = 0)
         {
-            Match match = db.Match.Find(ID);
-            if (match == null)
+            User user = user.Find(ID);
+            if (User == null)
             {
                 return HttpNotFound();
             }
             
-            return View(match);
+            return View(User);
         }
 
     }

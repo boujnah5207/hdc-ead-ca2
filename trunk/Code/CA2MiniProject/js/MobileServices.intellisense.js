@@ -5,11 +5,11 @@
 // Declare JSHint globals
 /*global WindowsAzure:false, intellisense:false */
 
-intellisense.annotate(WindowsAzure.MobileServiceClient.prototype, {
+intellisense.annotate(WindowsAzure.MobileServiceUser.prototype, {
     withFilter: function () {
         /// <signature>
         /// <summary>
-        /// Create a new MobileServiceClient with a filter inserted into the http 
+        /// Create a new MobileServiceUser with a filter inserted into the http 
         /// pipeline to process all of its HTTP requests and responses.
         /// </summary>
         /// <param name="serviceFilter" type="Function">
@@ -17,8 +17,8 @@ intellisense.annotate(WindowsAzure.MobileServiceClient.prototype, {
         /// function(request, next, callback) where next := function(request, callback)
         /// and callback := function(error, response).
         /// </param>
-        /// <returns type="WindowsAzure.MobileServiceClient">
-        /// A new MobileServiceClient whose HTTP requests and responses will be
+        /// <returns type="WindowsAzure.MobileServiceUser">
+        /// A new MobileServiceUser whose HTTP requests and responses will be
         /// filtered as desired.
         /// </returns>
         /// </signature>
@@ -36,11 +36,11 @@ intellisense.annotate(WindowsAzure.MobileServiceClient.prototype, {
         /// the 'token' parameter is considered a provider-specific authentication token.
         /// </param>
         /// <param name="token" type="Object" mayBeNull="true">
-        /// Optional JSON representation of an authentication token, which can be supplied when the client has already
+        /// Optional JSON representation of an authentication token, which can be supplied when the User has already
         /// obtained a token from the identity provider.
         /// </param>
         /// <param name="useSingleSignOn" type="Boolean" mayBeNull="true">
-        /// Only applies to Windows 8 clients.  Will be ignored on other platforms.
+        /// Only applies to Windows 8 Users.  Will be ignored on other platforms.
         /// Indicates if single sign-on should be used. Single sign-on requires that the 
         /// application's Package SID be registered with the Windows Azure Mobile Service, 
         /// but it provides a better experience as HTTP cookies are supported so that users 
@@ -62,10 +62,10 @@ intellisense.annotate(WindowsAzure.MobileServiceClient.prototype, {
 });
 
 intellisense.annotate(WindowsAzure, {
-    MobileServiceClient: function () {
+    MobileServiceUser: function () {
         ///<signature>
         /// <summary>
-        /// Creates a new instance of the MobileServiceClient.
+        /// Creates a new instance of the MobileServiceUser.
         /// </summary>
         /// <param name="applicationUrl" type="string" mayBeNull="false">
         /// The URL of the mobile service..
@@ -84,10 +84,10 @@ intellisense.annotate(WindowsAzure, {
     }
 });
 
-WindowsAzure.MobileServiceClient = (function () {
-    var _client = WindowsAzure.MobileServiceClient;
+WindowsAzure.MobileServiceUser = (function () {
+    var _User = WindowsAzure.MobileServiceUser;
     var wrapper = function () {
-        var instance = new _client();
+        var instance = new _User();
         intellisense.annotate(instance, {
             /// <field name="applicationKey" type="string">The application key</field>
             applicationKey: String,
@@ -137,12 +137,12 @@ WindowsAzure.MobileServiceClient = (function () {
                         /// <returns type="WinJS.Promise">A WinJS.Promise</returns>
                         /// </signature>
                     },
-                    getMobileServiceClient: function () {
+                    getMobileServiceUser: function () {
                         /// <signature>
                         /// <summary>
-                        /// The client associated with this table.
+                        /// The User associated with this table.
                         /// </summary>
-                        /// <returns type="WindowsAzure.MobileServiceClient">A MobileServiceClient</returns>
+                        /// <returns type="WindowsAzure.MobileServiceUser">A MobileServiceUser</returns>
                         /// </signature>
                     },
                     getTableName: function () {
@@ -302,6 +302,6 @@ WindowsAzure.MobileServiceClient = (function () {
         return instance;
     };
 
-    intellisense.redirectDefinition(wrapper, _client);
+    intellisense.redirectDefinition(wrapper, _User);
     return wrapper;
 })();

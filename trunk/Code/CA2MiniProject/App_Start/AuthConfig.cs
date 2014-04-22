@@ -14,19 +14,19 @@ namespace CA2MiniProject
             // To let users of this site log in using their accounts from other sites such as Microsoft, Facebook, and Twitter,
             // you must update this site. For more information visit http://go.microsoft.com/fwlink/?LinkID=252166
 
-            //OAuthWebSecurity.RegisterMicrosoftClient(
-            //    clientId: "",
-            //    clientSecret: "");
+            //OAuthWebSecurity.RegisterMicrosoftUser(
+            //    UserId: "",
+            //    UserSecret: "");
 
-            //OAuthWebSecurity.RegisterTwitterClient(
+            //OAuthWebSecurity.RegisterTwitterUser(
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //OAuthWebSecurity.RegisterFacebookClient(
+            //OAuthWebSecurity.RegisterFacebookUser(
             //    appId: "",
             //    appSecret: "");
 
-            //OAuthWebSecurity.RegisterGoogleClient();
+            //OAuthWebSecurity.RegisterGoogleUser();
         }
     }
 }

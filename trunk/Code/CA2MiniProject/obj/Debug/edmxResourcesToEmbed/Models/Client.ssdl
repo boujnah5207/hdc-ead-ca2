@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="ClientsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityContainer Name="ClientsModelStoreContainer">
-    <EntitySet Name="Client" EntityType="ClientsModel.Store.Client" store:Type="Tables" Schema="dbo" />
+<Schema Namespace="UsersModel.Store" Alias="Self" Provider="System.Data.SqlUser" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="UsersModelStoreContainer">
+    <EntitySet Name="User" EntityType="UsersModel.Store.User" store:Type="Tables" Schema="dbo" />
   </EntityContainer>
-  <EntityType Name="Client">
+  <EntityType Name="User">
     <Key>
       <PropertyRef Name="ID" />
     </Key>

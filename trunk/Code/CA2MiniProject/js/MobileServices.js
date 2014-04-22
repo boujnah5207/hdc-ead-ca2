@@ -47,7 +47,7 @@
         }
     }
 
-    $__modules__.MobileServiceClient = function (exports) {
+    $__modules__.MobileServiceUser = function (exports) {
         // ----------------------------------------------------------------------------
         // Copyright (c) Microsoft Corporation. All rights reserved.
         // ----------------------------------------------------------------------------
@@ -66,9 +66,9 @@
             Push = require('Push').Push;
         } catch(e) {}
         
-        function MobileServiceClient(applicationUrl, applicationKey) {
+        function MobileServiceUser(applicationUrl, applicationKey) {
             /// <summary>
-            /// Initializes a new instance of the MobileServiceClient class.
+            /// Initializes a new instance of the MobileServiceUser class.
             /// </summary>
             /// <param name="applicationUrl" type="string" mayBeNull="false">
             /// The URL to the Mobile Services application.
@@ -112,17 +112,17 @@
             }
         }
         
-        // Export the MobileServiceClient class
-        exports.MobileServiceClient = MobileServiceClient;
+        // Export the MobileServiceUser class
+        exports.MobileServiceUser = MobileServiceUser;
         
-        // Define the MobileServiceClient in a namespace (note: this has global effects
+        // Define the MobileServiceUser in a namespace (note: this has global effects
         // unless the platform we're using chooses to ignore it because exports are
         // good enough).
-        Platform.addToMobileServicesClientNamespace({ MobileServiceClient: MobileServiceClient });
+        Platform.addToMobileServicesUserNamespace({ MobileServiceUser: MobileServiceUser });
         
-        MobileServiceClient.prototype.withFilter = function (serviceFilter) {
+        MobileServiceUser.prototype.withFilter = function (serviceFilter) {
             /// <summary>
-            /// Create a new MobileServiceClient with a filter used to process all
+            /// Create a new MobileServiceUser with a filter used to process all
             /// of its HTTP requests and responses.
             /// </summary>
             /// <param name="serviceFilter" type="Function">
@@ -132,15 +132,15 @@
             ///    next := function(request, callback)
             ///    callback := function(error, response)
             /// </param>
-            /// <returns type="MobileServiceClient">
-            /// A new MobileServiceClient whose HTTP requests and responses will be
+            /// <returns type="MobileServiceUser">
+            /// A new MobileServiceUser whose HTTP requests and responses will be
             /// filtered as desired.
             /// </returns>
             /// <remarks>
             /// The Mobile Services HTTP pipeline is a chain of filters composed
             /// together by giving each the next operation which it can invoke
             /// (zero, one, or many times as necessary).  The default continuation
-            /// of a brand new MobileServiceClient will just get the HTTP response
+            /// of a brand new MobileServiceUser will just get the HTTP response
             /// for the corresponding request.  Here's an example of a Handle
             /// implementation that will automatically retry a request that times
             /// out.
@@ -159,7 +159,7 @@
             /// any special code to handle the situation.
             /// -
             /// Filters are composed just like standard function composition.  If
-            /// we had new MobileServiceClient().withFilter(F1).withFilter(F2)
+            /// we had new MobileServiceUser().withFilter(F1).withFilter(F2)
             /// .withFilter(F3), it's conceptually equivalent to saying:
             ///     var response = F3(F2(F1(next(request)));
             /// </remarks>
@@ -167,12 +167,12 @@
             Validate.notNull(serviceFilter, 'serviceFilter');
         
             // Clone the current instance
-            var client = new MobileServiceClient(this.applicationUrl, this.applicationKey);
-            client.currentUser = this.currentUser;
+            var User = new MobileServiceUser(this.applicationUrl, this.applicationKey);
+            User.currentUser = this.currentUser;
         
             // Chain the service filter with any existing filters
             var existingFilter = this._serviceFilter;
-            client._serviceFilter = _.isNull(existingFilter) ?
+            User._serviceFilter = _.isNull(existingFilter) ?
                 serviceFilter :
                 function (req, next, callback) {
                     // compose existingFilter with next so it can be used as the next
@@ -183,10 +183,10 @@
                     serviceFilter(req, composed, callback);
                 };
         
-            return client;
+            return User;
         };
         
-        MobileServiceClient.prototype._request = function (method, uriFragment, content, ignoreFilters, headers, callback) {
+        MobileServiceUser.prototype._request = function (method, uriFragment, content, ignoreFilters, headers, callback) {
             /// <summary>
             /// Perform a web request and include the standard Mobile Services headers.
             /// </summary>
@@ -201,7 +201,7 @@
             /// Optional content to send to the resource.
             /// </param>
             /// <param name="ignoreFilters" type="Boolean" mayBeNull="true">
-            /// Optional parameter to indicate if the client filters should be ignored
+            /// Optional parameter to indicate if the User filters should be ignored
             /// and the request should be sent directly. Is false by default.
             /// </param>
             /// <param name="headers" type="Object">
@@ -242,15 +242,15 @@
             if (!_.isNull(headers)) {
                 _.extend(options.headers, headers);
             }
-            options.headers["X-ZUMO-INSTALLATION-ID"] = MobileServiceClient._applicationInstallationId;
+            options.headers["X-ZUMO-INSTALLATION-ID"] = MobileServiceUser._applicationInstallationId;
             if (!_.isNullOrEmpty(this.applicationKey)) {
                 options.headers["X-ZUMO-APPLICATION"] = this.applicationKey;
             }
             if (this.currentUser && !_.isNullOrEmpty(this.currentUser.mobileServiceAuthenticationToken)) {
                 options.headers["X-ZUMO-AUTH"] = this.currentUser.mobileServiceAuthenticationToken;
             }
-            if (!_.isNull(MobileServiceClient._userAgent)) {
-                options.headers["User-Agent"] = MobileServiceClient._userAgent;
+            if (!_.isNull(MobileServiceUser._userAgent)) {
+                options.headers["User-Agent"] = MobileServiceUser._userAgent;
             }
             if (!_.isNullOrEmpty["X-ZUMO-VERSION"]) {
                 options.headers["X-ZUMO-VERSION"] = this.version;
@@ -293,7 +293,7 @@
             }
         };
         
-        MobileServiceClient.prototype.login = Platform.async(
+        MobileServiceUser.prototype.login = Platform.async(
             function (provider, token, useSingleSignOn, callback) {
                 /// <summary>
                 /// Log a user into a Mobile Services application given a provider name and optional 
@@ -310,7 +310,7 @@
                 /// Optional, provider specific object with existing OAuth token to log in with.
                 /// </param>
                 /// <param name="useSingleSignOn" type="Boolean" mayBeNull="true">
-                /// Only applies to Windows 8 clients.  Will be ignored on other platforms.
+                /// Only applies to Windows 8 Users.  Will be ignored on other platforms.
                 /// Indicates if single sign-on should be used. Single sign-on requires that the 
                 /// application's Package SID be registered with the Windows Azure Mobile Service, 
                 /// but it provides a better experience as HTTP cookies are supported so that users 
@@ -322,14 +322,14 @@
                 this._login.login(provider, token, useSingleSignOn, callback);
             });
         
-        MobileServiceClient.prototype.logout = function () {
+        MobileServiceUser.prototype.logout = function () {
             /// <summary>
             /// Log a user out of a Mobile Services application.
             /// </summary>
             this.currentUser = null;
         };
         
-        MobileServiceClient.prototype.invokeApi = Platform.async(
+        MobileServiceUser.prototype.invokeApi = Platform.async(
             function (apiName, options, callback) {   
                 /// <summary>
                 /// Invokes the specified custom api and returns a response object.
@@ -455,12 +455,12 @@
         /// Get or set the static _applicationInstallationId by checking the settings
         /// and create the value if necessary.
         /// </summary>
-        MobileServiceClient._applicationInstallationId = getApplicationInstallationId();
+        MobileServiceUser._applicationInstallationId = getApplicationInstallationId();
         
         /// <summary>
         /// Get or set the static _userAgent by calling into the Platform.
         /// </summary>
-        MobileServiceClient._userAgent = Platform.getUserAgent();
+        MobileServiceUser._userAgent = Platform.getUserAgent();
         
         
     };
@@ -501,22 +501,22 @@
             Version: "__version"
         }
         
-        Platform.addToMobileServicesClientNamespace({
+        Platform.addToMobileServicesUserNamespace({
             MobileServiceTable:
                 {
                     SystemProperties: MobileServiceSystemProperties
                 }
         });
         
-        function MobileServiceTable(tableName, client) {
+        function MobileServiceTable(tableName, User) {
             /// <summary>
             /// Initializes a new instance of the MobileServiceTable class.
             /// </summary>
             /// <param name="tableName" type="String">
             /// Name of the table.
             /// </param>
-            /// <param name="client" type="MobileServiceClient" mayBeNull="false">
-            /// The MobileServiceClient used to make requests.
+            /// <param name="User" type="MobileServiceUser" mayBeNull="false">
+            /// The MobileServiceUser used to make requests.
             /// </param>
         
             this.getTableName = function () {
@@ -527,14 +527,14 @@
                 return tableName;
             };
         
-            this.getMobileServiceClient = function () {
+            this.getMobileServiceUser = function () {
                 /// <summary>
-                /// Gets the MobileServiceClient associated with this table.
+                /// Gets the MobileServiceUser associated with this table.
                 /// </summary>
-                /// <returns type="MobileServiceClient">
-                /// The MobileServiceClient associated with this table.
+                /// <returns type="MobileServiceUser">
+                /// The MobileServiceUser associated with this table.
                 /// </returns>
-                return client;
+                return User;
             };
         
             this.systemProperties = 0;
@@ -639,7 +639,7 @@
             }
         
             // Make the request
-            this.getMobileServiceClient()._request(
+            this.getMobileServiceUser()._request(
                 'GET',
                 urlFragment,
                 null,
@@ -734,7 +734,7 @@
                 }
         
                 // Make the request
-                this.getMobileServiceClient()._request(
+                this.getMobileServiceUser()._request(
                     'POST',
                     urlFragment,
                     instance,
@@ -804,7 +804,7 @@
                 }
         
                 // Make the request
-                this.getMobileServiceClient()._request(
+                this.getMobileServiceUser()._request(
                     'PATCH',
                     urlFragment,
                     serverInstance,
@@ -881,7 +881,7 @@
                 }
         
                 // Make the request
-                this.getMobileServiceClient()._request(
+                this.getMobileServiceUser()._request(
                     'GET',
                     urlFragment,
                     instance,
@@ -948,7 +948,7 @@
                 }
         
                 // Make the request
-                this.getMobileServiceClient()._request(
+                this.getMobileServiceUser()._request(
                     'GET',
                     urlFragment,
                     null,
@@ -1003,7 +1003,7 @@
                 }
         
                 // Make the request
-                this.getMobileServiceClient()._request(
+                this.getMobileServiceUser()._request(
                     'DELETE',
                     urlFragment,
                     null,
@@ -1137,15 +1137,15 @@
         var loginUrl = "login";
         var loginDone = "done";
         
-        function MobileServiceLogin(client, ignoreFilters) {
+        function MobileServiceLogin(User, ignoreFilters) {
             /// <summary>
             /// Initializes a new instance of the MobileServiceLogin class.
             /// </summary>
-            /// <param name="client" type="MobileServiceClient" mayBeNull="false">
-            /// Reference to the MobileServiceClient associated with this login.
+            /// <param name="User" type="MobileServiceUser" mayBeNull="false">
+            /// Reference to the MobileServiceUser associated with this login.
             /// </param>
             /// <param name="ignoreFilters" type="Boolean" mayBeNull="true">
-            /// Optional parameter to indicate if the client filters should be ignored
+            /// Optional parameter to indicate if the User filters should be ignored
             /// and requests should be sent directly. Is true by default. This should
             /// only be set to false for testing purposes when filters are needed to intercept
             /// and validate requests and responses.
@@ -1157,22 +1157,22 @@
             }
         
             // Validate arguments
-            Validate.notNull(client);
-            Validate.isObject(client, 'client');
+            Validate.notNull(User);
+            Validate.isObject(User, 'User');
         
             // Create read/write fields
             this._loginState = { inProcess: false, cancelCallback: null };
             this.ignoreFilters = ignoreFilters;
         
             // Create get accessors for read-only fields
-            this.getMobileServiceClient = function () {
+            this.getMobileServiceUser = function () {
                 /// <summary>
-                /// Gets the MobileServiceClient associated with this table.
+                /// Gets the MobileServiceUser associated with this table.
                 /// <summary>
-                /// <returns type="MobileServiceClient">
-                /// The MobileServiceClient associated with this table.
+                /// <returns type="MobileServiceUser">
+                /// The MobileServiceUser associated with this table.
                 /// </returns>
-                return client;
+                return User;
             };
         
             this.getLoginInProcess = function () {
@@ -1192,7 +1192,7 @@
         // Define the MobileServiceLogin in a namespace (note: this has global effects
         // unless the platform we're using chooses to ignore it because exports are
         // good enough).
-        Platform.addToMobileServicesClientNamespace({ MobileServiceLogin: MobileServiceLogin });
+        Platform.addToMobileServicesUserNamespace({ MobileServiceLogin: MobileServiceLogin });
         
         MobileServiceLogin.prototype.login = function (provider, token, useSingleSignOn, callback) {
             /// <summary>
@@ -1208,7 +1208,7 @@
             /// a JWT Mobile Services authentication token if the provider is null.
             /// </param>
             /// <param name="useSingleSignOn" type="Boolean" mayBeNull="true">
-            /// Only applies to Windows 8 clients.  Will be ignored on other platforms.
+            /// Only applies to Windows 8 Users.  Will be ignored on other platforms.
             /// Indicates if single sign-on should be used. Single sign-on requires that the 
             /// application's Package SID be registered with the Windows Azure Mobile Service, 
             /// but it provides a better experience as HTTP cookies are supported so that users 
@@ -1281,18 +1281,18 @@
             /// </param>
         
             var self = this;
-            var client = self.getMobileServiceClient();
+            var User = self.getMobileServiceUser();
         
             Validate.isString(authenticationToken, 'authenticationToken');
             Validate.notNullOrEmpty(authenticationToken, 'authenticationToken');
         
-            client._request(
+            User._request(
                 'POST',
                 loginUrl,
                 { authenticationToken: authenticationToken },
                 self.ignoreFilters,
                 function(error, response) { 
-                    onLoginResponse(error, response, client, callback);
+                    onLoginResponse(error, response, User, callback);
                 });
         };
         
@@ -1359,7 +1359,7 @@
             }
         };
         
-        function onLoginComplete(error, token, client, callback) {
+        function onLoginComplete(error, token, User, callback) {
             /// <summary>
             /// Handles the completion of the login and calls the user's callback with
             /// either a user or an error.
@@ -1372,8 +1372,8 @@
             /// Optional token that represents the logged-in user. Will be null if the
             /// login failed and their is an error.
             /// </param>
-            /// <param name="client" type="MobileServiceClient">
-            /// The Mobile Service client associated with the login.
+            /// <param name="User" type="MobileServiceUser">
+            /// The Mobile Service User associated with the login.
             /// </param>
             /// <param name="callback" type="Function" mayBeNull="true">
             /// The callback to execute when the login completes: callback(error, user).
@@ -1390,10 +1390,10 @@
                     error = Platform.getResourceString("MobileServiceLogin_InvalidResponseFormat");
                 }
                 else {
-                    // Set the current user on the client and return it in the callback
-                    client.currentUser = token.user;
-                    client.currentUser.mobileServiceAuthenticationToken = token.authenticationToken;
-                    user = client.currentUser;
+                    // Set the current user on the User and return it in the callback
+                    User.currentUser = token.user;
+                    User.currentUser.mobileServiceAuthenticationToken = token.authenticationToken;
+                    user = User.currentUser;
                 }
             }
         
@@ -1402,7 +1402,7 @@
             }
         }
         
-        function onLoginResponse(error, response, client, callback) {
+        function onLoginResponse(error, response, User, callback) {
             /// <summary>
             /// Handles the completion of the login HTTP call and calls the user's callback with
             /// either a user or an error.
@@ -1415,8 +1415,8 @@
             /// Optional HTTP login response from the Mobile Service. Will be null if the
             /// login failed and their is an error.
             /// </param>
-            /// <param name="client" type="MobileServiceClient">
-            /// The Mobile Service client associated with the login.
+            /// <param name="User" type="MobileServiceUser">
+            /// The Mobile Service User associated with the login.
             /// </param>
             /// <param name="callback" type="Function" mayBeNull="true">
             /// The callback to execute when the login completes: callback(error, user).
@@ -1432,7 +1432,7 @@
                 }
             }
         
-            onLoginComplete(error, mobileServiceToken, client, callback);
+            onLoginComplete(error, mobileServiceToken, User, callback);
         }
         
         function loginWithProviderAndToken(login, provider, token, callback) {
@@ -1453,7 +1453,7 @@
             /// The callback to execute when the login completes: callback(error, user).
             /// </param>
         
-            var client = login.getMobileServiceClient();
+            var User = login.getMobileServiceUser();
         
             // This design has always been problematic, because the operation can take arbitrarily
             // long and there is no way for the UI to cancel it. We should probably remove this
@@ -1462,14 +1462,14 @@
         
             // Invoke the POST endpoint to exchange provider-specific token for a 
             // Windows Azure Mobile Services token
-            client._request(
+            User._request(
                 'POST',
                 loginUrl + '/' + provider,
                 token,
                 login.ignoreFilters,
                 function (error, response) {
                     login._loginState = { inProcess: false, cancelCallback: null };
-                    onLoginResponse(error, response, client, callback);
+                    onLoginResponse(error, response, User, callback);
                 });
         }
         
@@ -1494,9 +1494,9 @@
             /// The callback to execute when the login completes: callback(error, user).
             /// </param>
         
-            var client = login.getMobileServiceClient();
+            var User = login.getMobileServiceUser();
             var startUri = _.url.combinePathSegments(
-                client.applicationUrl,
+                User.applicationUrl,
                 loginUrl,
                 provider);
             var endUri = null;
@@ -1504,7 +1504,7 @@
             // If not single sign-on, then we need to construct a non-null end uri.
             if (!useSingleSignOn) {
                 endUri = _.url.combinePathSegments(
-                    client.applicationUrl,
+                    User.applicationUrl,
                     loginUrl,
                     loginDone);
             }
@@ -1518,7 +1518,7 @@
                 endUri,
                 function (error, mobileServiceToken) {
                     login._loginState = { inProcess: false, cancelCallback: null };
-                    onLoginComplete(error, mobileServiceToken, client, callback);
+                    onLoginComplete(error, mobileServiceToken, User, callback);
                 });
             
             if (login._loginState.inProcess && platformResult && platformResult.cancelCallback) {
@@ -1539,12 +1539,12 @@
         var Validate = require('Validate');
         var LocalStorageManager = require('LocalStorageManager').LocalStorageManager;
         var RegistrationManager = require('RegistrationManager').RegistrationManager;
-        var PushHttpClient = require('PushHttpClient').PushHttpClient;
+        var PushHttpUser = require('PushHttpUser').PushHttpUser;
         
-        function Push(mobileServicesClient, tileId) {
-            var localStorage = new LocalStorageManager(mobileServicesClient.applicationUrl, tileId);
+        function Push(mobileServicesUser, tileId) {
+            var localStorage = new LocalStorageManager(mobileServicesUser.applicationUrl, tileId);
             this.registrationManager = new RegistrationManager(
-                new PushHttpClient(mobileServicesClient),
+                new PushHttpUser(mobileServicesUser),
                 localStorage
                 );
         }
@@ -1625,7 +1625,7 @@
         };
         
         Push.prototype.getSecondaryTile = function (tileId) {
-            return new Push(this.mobileServicesClient, tileId);
+            return new Push(this.mobileServicesUser, tileId);
         };
         
         function makeCoreRegistration(channelUri, tags) {
@@ -1659,8 +1659,8 @@
         // Declare JSHint globals
         /*global WinJS:false */
         
-        function RegistrationManager(pushHttpClient, storageManager) {
-            this.pushHttpClient = pushHttpClient;
+        function RegistrationManager(pushHttpUser, storageManager) {
+            this.pushHttpUser = pushHttpUser;
             this.localStorageManager = storageManager;
         }
         
@@ -1673,7 +1673,7 @@
             var self = this;
             // if localStorage is empty or has different storage version, we need retrieve registrations and refresh local storage
             if (this.localStorageManager.isRefreshNeeded) {
-                refreshPromise = this.pushHttpClient.listRegistrations(refreshChannelUri)
+                refreshPromise = this.pushHttpUser.listRegistrations(refreshChannelUri)
                     .then(function (registrations) {
                         var count = registrations.length;
                         if (count === 0) {
@@ -1739,7 +1739,7 @@
             }
         
             var self = this;
-            return this.pushHttpClient.unregister(cached.registrationId)
+            return this.pushHttpUser.unregister(cached.registrationId)
                 .then(function () {
                     self.localStorageManager.deleteRegistrationByName(registrationName);
                 });
@@ -1747,11 +1747,11 @@
         
         RegistrationManager.prototype.deleteRegistrationsForChannel = function (channelUri) {
             var self = this;
-            return this.pushHttpClient.listRegistrations(channelUri)
+            return this.pushHttpUser.listRegistrations(channelUri)
                 .then(function (registrations) {
                     return WinJS.Promise.join(
                         registrations.map(function (registration) {
-                            return self.pushHttpClient.unregister(registration.registrationId)
+                            return self.pushHttpUser.unregister(registration.registrationId)
                                 .then(function () {
                                     self.localStorageManager.deleteRegistrationByRegistrationId(registration.registrationId);
                                 });
@@ -1764,7 +1764,7 @@
         
         RegistrationManager.prototype.createRegistrationId = function (registration) {
             var self = this;
-            return this.pushHttpClient.createRegistrationId()
+            return this.pushHttpUser.createRegistrationId()
                 .then(function (registrationId) {
                     registration.registrationId = registrationId;
                     self.localStorageManager.updateRegistrationByRegistrationName(registration.templateName || RegistrationManager.nativeRegistrationName, registration.registrationId, registration.deviceId);
@@ -1773,7 +1773,7 @@
         
         RegistrationManager.prototype.upsertRegistration = function (registration) {
             var self = this;
-            return this.pushHttpClient.createOrUpdateRegistration(registration)
+            return this.pushHttpUser.createOrUpdateRegistration(registration)
                 .then(function () {
                     self.localStorageManager.updateRegistrationByRegistrationName(registration.templateName || RegistrationManager.nativeRegistrationName, registration.registrationId, registration.deviceId);
                 });
@@ -1969,7 +1969,7 @@
         };
     };
 
-    $__modules__.PushHttpClient = function (exports) {
+    $__modules__.PushHttpUser = function (exports) {
         // ----------------------------------------------------------------------------
         // Copyright (c) Microsoft Corporation. All rights reserved.
         // ----------------------------------------------------------------------------
@@ -1981,24 +1981,24 @@
         var _ = require('Extensions');
         var Platform = require('Platform');
         var noCacheHeader = { 'If-Modified-Since': 'Mon, 27 Mar 1972 00:00:00 GMT' };
-        function PushHttpClient(mobileServicesClient) {
-            this.mobileServicesClient = mobileServicesClient;
+        function PushHttpUser(mobileServicesUser) {
+            this.mobileServicesUser = mobileServicesUser;
         }
         
-        exports.PushHttpClient = PushHttpClient;
+        exports.PushHttpUser = PushHttpUser;
         
-        PushHttpClient.prototype.listRegistrations = function (channelUri) {
+        PushHttpUser.prototype.listRegistrations = function (channelUri) {
             return this._request('GET', '/push/registrations?platform=wns&deviceId=' + encodeURIComponent(channelUri), null, null, noCacheHeader)
                 .then(function (request) {
                     return JSON.parse(request.response);
                 });
         };
         
-        PushHttpClient.prototype.unregister = function (registrationId) {
+        PushHttpUser.prototype.unregister = function (registrationId) {
             return this._request('DELETE', '/push/registrations/' + encodeURIComponent(registrationId), null, null, noCacheHeader);
         };
         
-        PushHttpClient.prototype.createRegistrationId = function () {
+        PushHttpUser.prototype.createRegistrationId = function () {
             return this._request('POST', '/push/registrationIds', null, null, noCacheHeader)
                 .then(function (response) {
                     var locationHeader = response.getResponseHeader('Location');
@@ -2006,13 +2006,13 @@
                 });
         };
         
-        PushHttpClient.prototype.createOrUpdateRegistration = function (registration) {
+        PushHttpUser.prototype.createOrUpdateRegistration = function (registration) {
             return this._request('PUT', '/push/registrations/' + encodeURIComponent(registration.registrationId), registration, null, noCacheHeader);
         };
         
-        PushHttpClient.prototype._request = Platform.async(
+        PushHttpUser.prototype._request = Platform.async(
             function (method, uriFragment, content, ignoreFilters, headers, callback) {
-                this.mobileServicesClient._request(method, uriFragment, content, ignoreFilters, headers, callback);
+                this.mobileServicesUser._request(method, uriFragment, content, ignoreFilters, headers, callback);
             });
     };
 
@@ -2076,9 +2076,9 @@
             };
         };
         
-        exports.addToMobileServicesClientNamespace = function (declarations) {
+        exports.addToMobileServicesUserNamespace = function (declarations) {
             /// <summary>
-            /// Define a collection of declarations in the Mobile Services Client namespace.
+            /// Define a collection of declarations in the Mobile Services User namespace.
             /// </summary>
             /// <param name="declarations" type="Object">
             /// Object consisting of names and values to define in the namespace.
@@ -2325,7 +2325,7 @@
             /// <summary>
             /// Patch an object with the values returned by from the server.  Given
             /// that it's possible for the server to change values on an insert/update,
-            /// we want to make sure the client object reflects those changes.
+            /// we want to make sure the User object reflects those changes.
             /// </summary>
             /// <param name="original" type="Object">The original value.</param>
             /// <param name="updated" type="Object">The updated value.</param>
@@ -5974,7 +5974,7 @@
               /*
                           # Indicate that the query should include the total count for all the
                           # records that would have been returned ignoring any take paging
-                          # limit clause specified by client or server.
+                          # limit clause specified by User or server.
               */
         
               this.includeTotalCount = function() {
@@ -10228,7 +10228,7 @@
         /* vim: set sw=4 ts=4 et tw=80 : */
     };
 
-    require('MobileServiceClient');
+    require('MobileServiceUser');
 })(this || exports);
 
 // SIG // Begin signature block

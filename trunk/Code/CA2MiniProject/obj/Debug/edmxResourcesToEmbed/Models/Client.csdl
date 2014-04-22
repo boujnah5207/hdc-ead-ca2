@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="ClientsModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityContainer Name="ClientEntities" p1:LazyLoadingEnabled="true">
-    <EntitySet Name="Matches" EntityType="ClientsModel.Match" />
+<Schema Namespace="UsersModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="UserEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="UsersModel.User" />
   </EntityContainer>
-  <EntityType Name="Match">
+  <EntityType Name="User">
     <Key>
       <PropertyRef Name="ID" />
     </Key>

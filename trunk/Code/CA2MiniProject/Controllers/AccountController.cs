@@ -238,7 +238,7 @@ namespace CA2MiniProject.Controllers
                 {
                     // User is new, ask for their desired membership name
                     string loginData = OAuthWebSecurity.SerializeProviderUserId(result.Provider, result.ProviderUserId);
-                    ViewBag.ProviderDisplayName = OAuthWebSecurity.GetOAuthClientData(result.Provider).DisplayName;
+                    ViewBag.ProviderDisplayName = OAuthWebSecurity.GetOAuthUserData(result.Provider).DisplayName;
                     ViewBag.ReturnUrl = returnUrl;
                     return View("ExternalLoginConfirmation", new RegisterExternalLoginModel { AdminName = result.UserName, ExternalLoginData = loginData });
                 }
@@ -285,7 +285,7 @@ namespace CA2MiniProject.Controllers
                     }
                 }
 
-                ViewBag.ProviderDisplayName = OAuthWebSecurity.GetOAuthClientData(provider).DisplayName;
+                ViewBag.ProviderDisplayName = OAuthWebSecurity.GetOAuthUserData(provider).DisplayName;
                 ViewBag.ReturnUrl = returnUrl;
                 return View(model);
             }
@@ -304,7 +304,7 @@ namespace CA2MiniProject.Controllers
             public ActionResult ExternalLoginsList(string returnUrl)
             {
                 ViewBag.ReturnUrl = returnUrl;
-                return PartialView("_ExternalLoginsListPartial", OAuthWebSecurity.RegisteredClientData);
+                return PartialView("_ExternalLoginsListPartial", OAuthWebSecurity.RegisteredUserData);
             }
 
             [ChildActionOnly]
@@ -314,12 +314,12 @@ namespace CA2MiniProject.Controllers
                 List<ExternalLogin> externalLogins = new List<ExternalLogin>();
                 foreach (OAuthAccount account in accounts)
                 {
-                    AuthenticationClientData clientData = OAuthWebSecurity.GetOAuthClientData(account.Provider);
+                    AuthenticationUserData UserData = OAuthWebSecurity.GetOAuthUserData(account.Provider);
 
                     externalLogins.Add(new ExternalLogin
                     {
                         Provider = account.Provider,
-                        ProviderDisplayName = clientData.DisplayName,
+                        ProviderDisplayName = UserData.DisplayName,
                         ProviderUserId = account.ProviderUserId,
                     });
                 }
