@@ -12,7 +12,7 @@ namespace CA2MiniProject.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Client
+    public partial class User
     {
         public string Name { get; set; }
         public int Age { get; set; }

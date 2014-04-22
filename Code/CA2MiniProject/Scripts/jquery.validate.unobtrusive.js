@@ -161,7 +161,7 @@
                 form = $element.parents("form")[0],
                 valInfo, rules, messages;
 
-            if (!form) {  // Cannot do client-side validation without a form
+            if (!form) {  // Cannot do User-side validation without a form
                 return;
             }
 
@@ -313,22 +313,22 @@
     });
 
     $jQval.addMethod("regex", function (value, element, params) {
-        var match;
+        var User;
         if (this.optional(element)) {
             return true;
         }
 
-        match = new RegExp(params).exec(value);
-        return (match && (match.index === 0) && (match[0].length === value.length));
+        User = new RegExp(params).exec(value);
+        return (User && (User.index === 0) && (User[0].length === value.length));
     });
 
     $jQval.addMethod("nonalphamin", function (value, element, nonalphamin) {
-        var match;
+        var User;
         if (nonalphamin) {
-            match = value.match(/\W/g);
-            match = match && match.length >= nonalphamin;
+            User = value.User(/\W/g);
+            User = User && User.length >= nonalphamin;
         }
-        return match;
+        return User;
     });
 
     if ($jQval.methods.extension) {

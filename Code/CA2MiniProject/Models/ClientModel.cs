@@ -6,7 +6,7 @@ using System.Web;
 
 namespace CA2MiniProject.Models
 {
-    public class MatchInfo
+    public class UserInfo
     {
 
         public static string[] PostCodeOptions

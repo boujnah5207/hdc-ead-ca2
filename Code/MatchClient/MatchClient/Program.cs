@@ -1,4 +1,4 @@
-﻿//client for Client RESTful web service
+﻿//client for User RESTful web service
 
 using System;
 using System.Collections.Generic;
@@ -10,10 +10,10 @@ using System.Net.Http.Headers;
 
 
 
-namespace MatchClient
+namespace UserClient
 {
-    // listing for Match in Dating DataBase
-    public class MatchInfo
+    // listing for User in Dating DataBase
+    public class UserInfo
     {
         // The ID 
 
@@ -22,70 +22,70 @@ namespace MatchClient
             get;
             set;
         }
-        // Match Name
+        // User Name
 
         public String Name
         {
             get;
             set;
         }
-        // Match Age
+        // User Age
 
         public int Age
         {
             get;
             set;
         }
-        // Match Phone_Number    
+        // User Phone_Number    
 
         public String Phone_Number
         {
             get;
             set;
         }
-        // Match Email    
+        // User Email    
 
         public String Email
         {
             get;
             set;
         }
-        // Match Post_Code    
+        // User Post_Code    
 
         public String Post_Code
         {
             get;
             set;
         }
-        // Match Gender    
+        // User Gender    
 
         public String Gender
         {
             get;
             set;
         }
-        // Match Looking_For    
+        // User Looking_For    
 
         public String Looking_For
         {
             get;
             set;
         }
-        // Match Interest_1    
+        // User Interest_1    
 
         public String Interest_1
         {
             get;
             set;
         }
-        // Match Interest_2    
+        // User Interest_2    
 
         public String Interest_2
         {
             get;
             set;
         }
-        // match Interest_1    
+        // User Interest_1    
 
         public String Interest_3
         {
@@ -110,9 +110,9 @@ namespace MatchClient
                         Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                     
-                    // POST /api/match with a client serialised in request body
+                    // POST /api/User with a client serialised in request body
                     //// create a new listing for a new client
-                    //MatchInfo newClient = new MatchInfo(); 
+                    //ClientInfo newClient = new ClientInfo(); 
                     //HttpResponseMessage response1 = client.PostAsJsonAsync("api/client", newClient).Result;
                     //if (response.IsSuccessStatusCode)                                               // 200 .. 299
                     //{
@@ -124,16 +124,16 @@ namespace MatchClient
                     //    Console.WriteLine(response.StatusCode + " " + response.ReasonPhrase);
                     //}
 
-                    // GET ../api/match
+                    // GET ../api/User
                     // get all client listings
-                    HttpResponseMessage response = client.GetAsync("api/match").Result;                 // accessing the Result property blocks
+                    HttpResponseMessage response = client.GetAsync("api/client").Result;                 // accessing the Result property blocks
                     if (response.IsSuccessStatusCode)                                                   // 200.299
                     {
                         // read result 
-                        var Match = response.Content.ReadAsAsync<IEnumerable<MatchInfo>>().Result;
-                        foreach (var matchSearch in Match)
+                        var Client = response.Content.ReadAsAsync<IEnumerable<ClientInfo>>().Result;
+                        foreach (var clientSearch in Client)
                         {
-                            Console.WriteLine(matchSearch.Name + " " + matchSearch.Post_Code);
+                            Console.WriteLine(UserSearch.Name + " " + clientSearch.Post_Code);
                         }
                     }
                     else
@@ -144,7 +144,7 @@ namespace MatchClient
 
                     // GET ../api/Client/Frank
                     // get the phone number for Frank
-                    response = client.GetAsync("api/match/frank").Result;
+                    response = client.GetAsync("api/client/frank").Result;
                     if (response.IsSuccessStatusCode)
                     {
                         // read result 

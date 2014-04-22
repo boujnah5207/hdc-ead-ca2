@@ -1,0 +1,16 @@
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\ClientClient.exe.config
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\obj\Debug\ClientClient.exe
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\obj\Debug\ClientClient.pdb
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\obj\Debug\MatchClient.csprojResolveAssemblyReference.cache
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\ClientClient.exe
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\ClientClient.pdb
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\System.Web.Http.dll
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\System.Web.Razor.dll
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\System.Web.Http.xml
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Louise\Documents\Project\Code\MatchClient\MatchClient\bin\Debug\System.Web.Razor.xml

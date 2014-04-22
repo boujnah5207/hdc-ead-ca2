@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="ClientsModelStoreContainer" CdmEntityContainer="ClientEntities">
-    <EntitySetMapping Name="Matches">
-      <EntityTypeMapping TypeName="ClientsModel.Match">
-        <MappingFragment StoreEntitySet="Client">
+  <EntityContainerMapping StorageEntityContainer="UsersModelStoreContainer" CdmEntityContainer="UserEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="UsersModel.User">
+        <MappingFragment StoreEntitySet="User">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Age" ColumnName="Age" />
           <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
