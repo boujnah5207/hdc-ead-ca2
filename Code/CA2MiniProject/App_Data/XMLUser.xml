@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<List>
+
+  <User ID = "D1234">
+    <Name>John Dunn</Name>
+    <Age>25</Age>
+    <Phone_Number>0872582466</Phone_Number>
+    <Email>JohnDunn@Hotmil.com</Email>
+    <Post_Code>Carlow</Post_Code>
+    <Gender>Male</Gender>
+    <Looking_For>Female</Looking_For>
+    <Interest_1>Music</Interest_1>
+    <Interest_2>Cooking</Interest_2>
+    <Interest_3>Sport</Interest_3>
+  </User>
+
+  <User ID  = "D2345">
+    <Name>Ann Quinn</Name>
+    <Age>28</Age>
+    <Phone_Number>0872582422</Phone_Number>
+    <Email>Quinner@Hotmail.com</Email>
+    <Post_Code>Waterford</Post_Code>
+    <Gender>Female</Gender>
+    <Looking_For>Male</Looking_For>
+    <Interest_1>Music</Interest_1>
+    <Interest_2>Cooking</Interest_2>
+    <Interest_3>Technology</Interest_3>
+  </User>
+        
+        
+    };
