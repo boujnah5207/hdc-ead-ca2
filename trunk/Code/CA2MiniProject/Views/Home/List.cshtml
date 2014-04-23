@@ -1,0 +1,13 @@
+﻿
+@model CA2MiniProject.Models.User
+@{
+    ViewBag.Title = "List";
+}
+  <h2>List of Users</h2>
+<h2>
+    @foreach (String word in ViewBag.Words)
+    {
+        @(word + " ")                     
+    }
+    @Model.Name age @Model.Phone_Number
+</h2>

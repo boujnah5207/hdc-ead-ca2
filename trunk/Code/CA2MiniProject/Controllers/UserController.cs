@@ -18,7 +18,7 @@ using CA2MiniProject.Models;                  // User information model class
 
 namespace CA2MiniProject.Controllers
 {
-    public class UserController : ApiController
+    public class UserController : Controller
     {
         /*
         * GET /api/user                  get user information                      GetAllUserInfo()
@@ -41,7 +41,7 @@ namespace CA2MiniProject.Controllers
         UserEntities context = new UserEntities();
 
         
-        // GET api/User
+        // GET /User/
         public IEnumerable<UserInfo> GetAllUserInfo()
         {
             return user;
@@ -78,8 +78,8 @@ namespace CA2MiniProject.Controllers
         }
 
 
-        // GET api/match/frank or api/match?name=frank
-        public String GetUserNumber(String name)
+        // GET User/frank or /User?name=frank
+        public ActionResult GetUserNumber(String name)
         {
             // LINQ query, find matching name (case-insensitive) or default value (null) if none matching
             UserInfo UserSearch = context.UserEntities.FirstOrDefault(w => w.Name.ToUpper() == name.ToUpper());
@@ -87,7 +87,7 @@ namespace CA2MiniProject.Controllers
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);       // translated into a http response status code 404
             }
-            return UserSearch.Phone_Number;
+            return View(UserSearch.Phone_Number);
         }
 
        
