@@ -142,15 +142,15 @@ namespace CA2MiniProject.Models
     }
 
     //Define a class based on the user list interface which contains the method implementations.
-   
+
     public class UserList : IUserList
     {
         private string xmlFilename = null;
         private XDocument xmlDocument = null;
 
-       
+
         // Define the class constructor.
-       
+
         public UserList()
         {
             try
@@ -170,7 +170,7 @@ namespace CA2MiniProject.Models
         // Method to add a new User to the list.
         // Defines the implementation of the POST method.
 
-         public UserInfo CreateUser(UserInfo user)
+        public UserInfo CreateUser(UserInfo user)
         {
             try
             {
@@ -211,10 +211,10 @@ namespace CA2MiniProject.Models
             return null;
         }
 
-       
+
         /// Method to retrieve all of the users on the list.
         /// Defines the implementation of the non-specific GET method.
-      
+
         public IEnumerable<UserInfo> GetAllUsers()
         {
             try
@@ -230,16 +230,16 @@ namespace CA2MiniProject.Models
                     {
                         // Populate the class with data from each of the user's elements.
                         ID = user.Attribute("id").Value,
-                        Name = user.Attribute("name").Value, 
-                        Age = user.Attribute("age").Value, 
+                        Name = user.Attribute("name").Value,
+                        //Age = user.Attribute("age").Value, Convert to int
                         Phone_Number = user.Attribute("phoneNumber").Value,
                         Email = user.Attribute("email").Value,
-                        Post_Code=user.Attribute("postCode").Value,
-                        Gender=user.Attribute("gender").Value,
-                        Looking_For=user.Attribute("lookingFor").Value,
-                        Interest_1=user.Attribute("interest1").Value,
-                        Interest_2=user.Attribute("interest2").Value,
-                        Interest_3=user.Attribute("interest3").Value
+                        Post_Code = user.Attribute("postCode").Value,
+                        Gender = user.Attribute("gender").Value,
+                        Looking_For = user.Attribute("lookingFor").Value,
+                        Interest_1 = user.Attribute("interest1").Value,
+                        Interest_2 = user.Attribute("interest2").Value,
+                        Interest_3 = user.Attribute("interest3").Value
                     }).ToList();
             }
             catch (Exception ex)
@@ -267,18 +267,18 @@ namespace CA2MiniProject.Models
                     select new UserInfo
                     {
                         // Populate the class with data from each of the book's elements.
-                       
+
                         ID = user.Attribute("id").Value,
-                        Name = user.Attribute("name").Value, 
-                        Age = user.Attribute("age").Value, 
+                        Name = user.Attribute("name").Value,
+                        //Age = user.Attribute("age").Value, convert to int
                         Phone_Number = user.Attribute("phoneNumber").Value,
                         Email = user.Attribute("email").Value,
-                        Post_Code=user.Attribute("postCode").Value,
-                        Gender=user.Attribute("gender").Value,
-                        Looking_For=user.Attribute("lookingFor").Value,
-                        Interest_1=user.Attribute("interest1").Value,
-                        Interest_2=user.Attribute("interest2").Value,
-                        Interest_3=user.Attribute("interest3").Value
+                        Post_Code = user.Attribute("postCode").Value,
+                        Gender = user.Attribute("gender").Value,
+                        Looking_For = user.Attribute("lookingFor").Value,
+                        Interest_1 = user.Attribute("interest1").Value,
+                        Interest_2 = user.Attribute("interest2").Value,
+                        Interest_3 = user.Attribute("interest3").Value
                     }).Single();
             }
             catch
@@ -377,6 +377,8 @@ namespace CA2MiniProject.Models
     }
 }
 
-}
+
+
+
 
 
