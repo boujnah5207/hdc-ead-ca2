@@ -1,0 +1,12 @@
+﻿<xapCache source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\UserList_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="25/04/2014 13:53:26">
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\obj\Debug\UserList.dll" archivePath="UserList.dll" lastWriteTime="25/04/2014 13:53:24" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="25/04/2014 13:53:07" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="25/04/2014 13:53:07" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="25/04/2014 13:53:07" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="25/04/2014 13:53:07" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="25/04/2014 13:53:07" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="25/04/2014 13:53:25" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="25/04/2014 13:53:07" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="25/04/2014 13:53:07" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="25/04/2014 13:53:26" />
+</xapCache>

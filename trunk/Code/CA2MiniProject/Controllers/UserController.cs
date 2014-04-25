@@ -10,6 +10,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Text;
+using System.Data.Entity;
 
 
 
@@ -42,7 +43,7 @@ namespace CA2MiniProject.Controllers
 
         
         // GET /User/
-        [HttpGet]
+        
         public HttpResponseMessage GetAllUsers()
         {
             IEnumerable<UserInfo> books = this.context.GetAllUsers();
@@ -58,7 +59,7 @@ namespace CA2MiniProject.Controllers
 
         //Post api/users add a new user
 
-        [HttpPost]
+       
         public HttpResponseMessage Post(UserInfo user)
         {
             if ((this.ModelState.IsValid) && (user != null))
@@ -77,10 +78,10 @@ namespace CA2MiniProject.Controllers
 
         // api/users/2 edit a users details
 
-        [HttpPut]
+       
         public HttpResponseMessage Put(String id, UserInfo user)
         {
-            if ((this.ModelState.IsValid) && (user != null) && (user.Id.Equals(id)))
+            if ((this.ModelState.IsValid) && (user != null) && (user.ID.Equals(id)))
             {
                 UserInfo modifiedBook = this.context.UpdateBook(id, user);
                 if (modifiedBook != null)
@@ -112,7 +113,7 @@ namespace CA2MiniProject.Controllers
         /// Method to remove an existing user from the list.
         /// Example: DELETE api/users/5
         /// </summary>
-        [HttpDelete]
+       
         public HttpResponseMessage Delete(String id)
         {
             UserInfo user = this.context.GetUser(id);
