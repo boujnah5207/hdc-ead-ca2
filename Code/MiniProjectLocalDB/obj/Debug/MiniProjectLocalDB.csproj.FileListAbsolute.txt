@@ -1,0 +1,10 @@
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\bin\Debug\User.mdf
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\bin\Debug\User_log.ldf
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\bin\Debug\MiniProjectLocalDB.exe.config
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\bin\Debug\MiniProjectLocalDB.exe
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\bin\Debug\MiniProjectLocalDB.pdb
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\obj\Debug\MiniProjectLocalDB.csprojResolveAssemblyReference.cache
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\obj\Debug\MiniProjectLocalDB.Properties.Resources.resources
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\obj\Debug\MiniProjectLocalDB.csproj.GenerateResource.Cache
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\obj\Debug\MiniProjectLocalDB.exe
+C:\Users\Louise\Documents\Project\Code\MiniProjectLocalDB\obj\Debug\MiniProjectLocalDB.pdb

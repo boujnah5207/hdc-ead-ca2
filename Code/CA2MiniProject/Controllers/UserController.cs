@@ -19,7 +19,7 @@ using CA2MiniProject.Models;                  // User information model class
 
 namespace CA2MiniProject.Controllers
 {
-    public class UserController : ApiController
+    public class UserController : Controller
     {
         /*
         * GET /api/user                  get user information                      GetAllUserInfo()
@@ -39,97 +39,103 @@ namespace CA2MiniProject.Controllers
         //}
 
         //Initialize the ObjectContext
-        UserEntities context = new UserEntities();
+        //CA2MiniProjectContext db = new CA2MiniProjectContext();
 
         
-        // GET /User/
+        //// GET /User/
+
+        //public ActionResult Index()
+        //{
+        //    var users = db.Users.ToList();
+        //    return View(users);
+        //}
         
-        public HttpResponseMessage GetAllUsers()
-        {
-            IEnumerable<UserInfo> books = this.context.GetAllUsers();
-            if (books != null)
-            {
-                return Request.CreateResponse<IEnumerable<UserInfo>>(HttpStatusCode.OK, users);
-            }
-            else
-            {
-                return Request.CreateResponse(HttpStatusCode.NotFound);
-            }
-        }
+        //public HttpResponseMessage GetAllUsers()
+        //{
+        //    var users = db.Users.ToList();
+        //    if (users != null)
+        //    {
+        //        return users;
+        //    }
+        //    else
+        //    {
+        //        return Request.CreateResponse(HttpStatusCode.NotFound);
+        //    }
+        //}
 
-        //Post api/users add a new user
-
-       
-        public HttpResponseMessage Post(UserInfo user)
-        {
-            if ((this.ModelState.IsValid) && (user != null))
-            {
-                UserInfo newUser = this.context.CreateBook(user);
-                if (newUser != null)
-                {
-                    var httpResponse = Request.CreateResponse<UserInfo>(HttpStatusCode.Created, newUser);
-                    string uri = Url.Link("DefaultApi", new { id = newUser.ID });
-                    httpResponse.Headers.Location = new Uri(uri);
-                    return httpResponse;
-                }
-            }
-            return Request.CreateResponse(HttpStatusCode.BadRequest);
-        }
-
-        // api/users/2 edit a users details
+        ////Post api/users add a new user
 
        
-        public HttpResponseMessage Put(String id, UserInfo user)
-        {
-            if ((this.ModelState.IsValid) && (user != null) && (user.ID.Equals(id)))
-            {
-                UserInfo modifiedBook = this.context.UpdateBook(id, user);
-                if (modifiedBook != null)
-                {
-                    return Request.CreateResponse<UserInfo>(HttpStatusCode.OK, modifiedBook);
-                }
-                else
-                {
-                    return Request.CreateResponse(HttpStatusCode.NotFound);
-                }
-            }
-            return Request.CreateResponse(HttpStatusCode.BadRequest);
-        }
+        //public HttpResponseMessage Post(UserInfo user)
+        //{
+        //    if ((this.ModelState.IsValid) && (user != null))
+        //    {
+        //        UserInfo newUser = this.context.CreateBook(user);
+        //        if (newUser != null)
+        //        {
+        //            var httpResponse = Request.CreateResponse<UserInfo>(HttpStatusCode.Created, newUser);
+        //            string uri = Url.Link("DefaultApi", new { id = newUser.ID });
+        //            httpResponse.Headers.Location = new Uri(uri);
+        //            return httpResponse;
+        //        }
+        //    }
+        //    return Request.CreateResponse(HttpStatusCode.BadRequest);
+        //}
 
+        //// api/users/2 edit a users details
 
-
-        // GET User/frank or /User?name=frank
-        public HttpResponseMessage GetUserNumber(String name)
-        {
-            // LINQ query, find matching name (case-insensitive) or default value (null) if none matching
-            var UserSearch = context.UserEntities.FirstOrDefault(w => w.Name.ToUpper() == name.ToUpper());
-            if (UserSearch == null)
-            {
-                throw new HttpResponseException(HttpStatusCode.NotFound);       // translated into a http response status code 404
-            }
-            return (UserSearch.Phone_Number);
-        }
-
-        /// Method to remove an existing user from the list.
-        /// Example: DELETE api/users/5
-        /// </summary>
        
-        public HttpResponseMessage Delete(String id)
-        {
-            UserInfo user = this.context.GetUser(id);
-            if (user != null)
-            {
-                if (this.context.DeleteUser(id))
-                {
-                    return Request.CreateResponse(HttpStatusCode.OK);
-                }
-            }
-            else
-            {
-                return Request.CreateResponse(HttpStatusCode.NotFound);
-            }
-            return Request.CreateResponse(HttpStatusCode.BadRequest);
-        }
+        //public HttpResponseMessage Put(String id, UserInfo user)
+        //{
+        //    if ((this.ModelState.IsValid) && (user != null) && (user.ID.Equals(id)))
+        //    {
+        //        UserInfo modifiedBook = this.context.UpdateBook(id, user);
+        //        if (modifiedBook != null)
+        //        {
+        //            return Request.CreateResponse<UserInfo>(HttpStatusCode.OK, modifiedBook);
+        //        }
+        //        else
+        //        {
+        //            return Request.CreateResponse(HttpStatusCode.NotFound);
+        //        }
+        //    }
+        //    return Request.CreateResponse(HttpStatusCode.BadRequest);
+        //}
+
+
+
+        //// GET User/frank or /User?name=frank
+        //public HttpResponseMessage GetUserNumber(String name)
+        //{
+        //    // LINQ query, find matching name (case-insensitive) or default value (null) if none matching
+        //    var UserSearch = context.UserEntities.FirstOrDefault(w => w.Name.ToUpper() == name.ToUpper());
+        //    if (UserSearch == null)
+        //    {
+        //        throw new HttpResponseException(HttpStatusCode.NotFound);       // translated into a http response status code 404
+        //    }
+        //    return (UserSearch.Phone_Number);
+        //}
+
+        ///// Method to remove an existing user from the list.
+        ///// Example: DELETE api/users/5
+        ///// </summary>
+       
+        //public HttpResponseMessage Delete(String id)
+        //{
+        //    UserInfo user = this.context.GetUser(id);
+        //    if (user != null)
+        //    {
+        //        if (this.context.DeleteUser(id))
+        //        {
+        //            return Request.CreateResponse(HttpStatusCode.OK);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        return Request.CreateResponse(HttpStatusCode.NotFound);
+        //    }
+        //    return Request.CreateResponse(HttpStatusCode.BadRequest);
+        //}
 
     }
 }

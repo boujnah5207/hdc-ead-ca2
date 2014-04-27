@@ -192,13 +192,13 @@ namespace CA2MiniProject.Models
                     XElement newUser = new XElement("user", new XAttribute("ID", newId));
                     // Create elements for each of the user's data items.
                     XElement[] userInfo = FormatUserData(user);
-                    // Add the element to the book element.
+                    // Add the element to the user element.
                     newUser.ReplaceNodes(userInfo);
-                    // Append the new book to the XML document.
+                    // Append the new user to the XML document.
                     userListRoot.Add(newUser);
                     // Save the XML document.
                     xmlDocument.Save(xmlFilename);
-                    // Return an object for the newly-added book.
+                    // Return an object for the newly-added user.
                     return this.GetUser(newId);
                 }
             }
@@ -266,7 +266,7 @@ namespace CA2MiniProject.Models
                     // Create a new instance of the detailed user information class.
                     select new UserInfo
                     {
-                        // Populate the class with data from each of the book's elements.
+                        // Populate the class with data from each of the User's elements.
 
                         ID = user.Attribute("id").Value,
                         Name = user.Attribute("name").Value,
@@ -291,9 +291,9 @@ namespace CA2MiniProject.Models
         /// <summary>
         /// Populates a user UserInfo class with the data for a user.
         /// </summary>
-        private XElement[] FormatBookData(UserInfo user)
+        private XElement[] FormatUserData(UserInfo user)
         {
-            XElement[] bookInfo =
+            XElement[] userInfo =
             {
                 new XElement("name", user.Name),
                 new XElement("age", user.Age),
@@ -324,11 +324,11 @@ namespace CA2MiniProject.Models
                 {
                     // Create elements for each of the user's data items.
                     XElement[] userInfo = FormatUserData(user);
-                    // Add the element to the book element.
+                    // Add the element to the user element.
                     EditUser.ReplaceNodes(userInfo);
                     // Save the XML document.
                     xmlDocument.Save(xmlFilename);
-                    // Return an object for the updated book.
+                    // Return an object for the updated user.
                     return this.GetUser(id);
                 }
             }

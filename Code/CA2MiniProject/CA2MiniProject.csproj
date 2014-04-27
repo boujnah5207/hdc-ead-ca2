@@ -278,6 +278,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModel.cs" />
+    <Compile Include="Models\CA2MiniProjectContext.cs" />
     <Compile Include="Models\Client.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
