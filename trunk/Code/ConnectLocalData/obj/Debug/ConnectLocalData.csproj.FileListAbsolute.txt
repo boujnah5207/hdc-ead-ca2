@@ -1,7 +1,6 @@
 C:\Users\Louise\Documents\Project\Code\ConnectLocalData\bin\Debug\ConnectLocalData.exe.config
 C:\Users\Louise\Documents\Project\Code\ConnectLocalData\bin\Debug\ConnectLocalData.exe
 C:\Users\Louise\Documents\Project\Code\ConnectLocalData\bin\Debug\ConnectLocalData.pdb
-C:\Users\Louise\Documents\Project\Code\ConnectLocalData\obj\Debug\ConnectLocalData.csprojResolveAssemblyReference.cache
 C:\Users\Louise\Documents\Project\Code\ConnectLocalData\obj\Debug\ConnectLocalData.Properties.Resources.resources
 C:\Users\Louise\Documents\Project\Code\ConnectLocalData\obj\Debug\ConnectLocalData.csproj.GenerateResource.Cache
 C:\Users\Louise\Documents\Project\Code\ConnectLocalData\obj\Debug\ConnectLocalData.exe

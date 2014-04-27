@@ -273,6 +273,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\UserMVCController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -451,12 +452,15 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\EditPage.cshtml" />
-    <Content Include="Views\Home\Find.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\Manage.cshtml" />
-    <Content Include="Views\Home\List.cshtml" />
+    <Content Include="Views\UserMVC\Create.cshtml" />
+    <Content Include="Views\UserMVC\Delete.cshtml" />
+    <Content Include="Views\UserMVC\Details.cshtml" />
+    <Content Include="Views\UserMVC\Edit.cshtml" />
+    <Content Include="Views\UserMVC\Index.cshtml" />
+    <Content Include="Views\UserMVC\IndexRest.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

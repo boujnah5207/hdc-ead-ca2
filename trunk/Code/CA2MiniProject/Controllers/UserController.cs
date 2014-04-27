@@ -19,12 +19,40 @@ using CA2MiniProject.Models;                  // User information model class
 
 namespace CA2MiniProject.Controllers
 {
-    public class UserController : Controller
+    public class UserController : ApiController
     {
         /*
         * GET /api/user                  get user information                      GetAllUserInfo()
         * GET /api/user/name             get user number for name                  GetUserNumber(name)
         */
+
+        private CA2MiniProjectContext db = new CA2MiniProjectContext();
+        // GET api/User
+        public List<User> Get()
+        {
+            return db.Users.ToList();
+        }
+
+        // GET api/User/5
+        public string Get(int id)
+        {
+            return "value";
+        }
+
+        // POST api/User
+        public void Post([FromBody]string name)
+        {
+        }
+
+        // PUT api/User/5
+        public void Put(int id, [FromBody]string name)
+        {
+        }
+
+        // DELETE api/User/5
+        public void Delete(int id)
+        {
+        }
 
         //private List<UserInfo> User;
 
