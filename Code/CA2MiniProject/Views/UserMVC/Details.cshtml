@@ -1,0 +1,98 @@
+﻿@model CA2MiniProject.Models.User
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone_Number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone_Number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Post_Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Post_Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Looking_For)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Looking_For)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Interest_1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Interest_1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Interest_2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Interest_2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Interest_3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Interest_3)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
