@@ -19,3 +19,5 @@ C:\Users\Louise\Documents\Project\Code\UserList\obj\Debug\UserList.dll
 C:\Users\Louise\Documents\Project\Code\UserList\obj\Debug\UserList.pdb
 C:\Users\Louise\Documents\Project\Code\UserList\obj\Debug\XapCacheFile.xml
 C:\Users\Louise\Documents\Project\Code\UserList\obj\Debug\UserList.csprojResolveAssemblyReference.cache
+C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Newtonsoft.Json.xml
