@@ -8,6 +8,9 @@ namespace CA2MiniProject.Models
 {
     public class CA2MiniProjectContext :DbContext
     {
-        public DbSet<User> Users { get; set; }
+        public CA2MiniProjectContext(): base("name=CA2MiniProject")
+        {
+        }
+        public System.Data.Entity.DbSet<CA2MiniProject.Models.User> Users { get; set; }
     }
 }
