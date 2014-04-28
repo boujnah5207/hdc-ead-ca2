@@ -11,7 +11,7 @@ namespace CA2MiniProject
         {
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{name}",
+                routeTemplate: "api/{controller}/{id}",
                 defaults: new { name = RouteParameter.Optional }
             );
 

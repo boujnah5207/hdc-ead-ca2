@@ -11,9 +11,6 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Text;
 using System.Data.Entity;
-
-
-
 using CA2MiniProject.Models;                  // User information model class
 
 

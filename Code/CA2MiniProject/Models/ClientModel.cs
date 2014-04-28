@@ -47,7 +47,7 @@ namespace CA2MiniProject.Models
 
         // User ID 
         [Required(ErrorMessage = "Not a Valid ID")]
-        public String ID
+        public string ID
         {
             get;
             set;
