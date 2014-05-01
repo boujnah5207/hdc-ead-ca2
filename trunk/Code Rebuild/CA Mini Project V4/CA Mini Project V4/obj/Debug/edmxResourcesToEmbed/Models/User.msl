@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UserDBModelStoreContainer" CdmEntityContainer="AzureDatabaseEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="UserDBModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Post_Code" ColumnName="Post_Code" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Looking_For" ColumnName="Looking_For" />
+          <ScalarProperty Name="Interest_1" ColumnName="Interest_1" />
+          <ScalarProperty Name="Interest_2" ColumnName="Interest_2" />
+          <ScalarProperty Name="Interest_3" ColumnName="Interest_3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
