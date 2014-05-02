@@ -1,0 +1,7 @@
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\DatingPhoneApp.csprojResolveAssemblyReference.cache
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\App.g.cs
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\DetailsPage.g.cs
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\MainPage.g.cs
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\DatingPhoneApp.g.resources
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\DatingPhoneApp.Resources.AppResources.resources
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\DatingPhoneApp.csproj.GenerateResource.Cache
