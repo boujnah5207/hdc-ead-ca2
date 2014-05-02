@@ -83,3 +83,21 @@ G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\zh-Hans\Sys
 G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\zh-Hant\System.Spatial.resources.dll
 G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\obj\Debug\CA Mini Project V4.dll
 G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\obj\Debug\CA Mini Project V4.pdb
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.Data.Services.Client.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.WindowsAzure.Configuration.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.WindowsAzure.Diagnostics.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.WindowsAzure.Storage.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.Data.Services.Client.xml
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.WindowsAzure.Configuration.xml
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.WindowsAzure.Diagnostics.xml
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\Microsoft.WindowsAzure.Storage.xml
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\de\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\es\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\fr\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\it\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\ja\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\ko\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\ru\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
