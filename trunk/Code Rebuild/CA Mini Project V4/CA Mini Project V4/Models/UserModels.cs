@@ -2,88 +2,128 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Xml;
+using System.Xml.Linq;
+using System.Xml.XPath;
 using System.Web;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.Entity;
-using System.Globalization;
-using System.Web.Security;
+
 
 namespace CA_Mini_Project_V4.Models
 {
+    // a class to hold the details of the dating website users
     public class UserInfo
     {
-        // The ID 
+
+        public static string[] PostCodeOptions
+        {
+            get
+            {
+                return new String[] { "Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Derry", "Donegal", "Down", "Dublin", "Fermanagh", "Galway", "Kerry", "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon", "Sligo", "Tipperary", "Tyrone", "Waterford", "Westmeath", "Wexford", "Wicklow" };
+            }
+        }
+        public static string[] Interest1Descriptions
+        {
+            get
+            {
+                return new String[] { "Music", "Current Affairs", "Environment" };
+            }
+        }
+
+        public static string[] Interest2Descriptions
+        {
+            get
+            {
+                return new String[] { "Film", "History", "Cooking" };
+            }
+        }
+
+        public static string[] Interest3Descriptions
+        {
+            get
+            {
+                return new String[] { "Sport", "Technology", "Charity Work" };
+            }
+        }
+
+        // User ID 
         [Required(ErrorMessage = "Not a Valid ID")]
-        public String ID
+        public string ID
         {
             get;
             set;
         }
-        // Match Name
-        [Range(-50, 50, ErrorMessage = "Not a Valid  Name")]
+        //User Name
+        [Range(-50, 50, ErrorMessage = "Not a Valid Name")]
         public String Name
         {
             get;
             set;
         }
-        // Match Age
-        [Range(0, 200, ErrorMessage = "Not a Valid Age")]
+        // User Age
+        [Range(18, 200, ErrorMessage = "Not a Valid Age")]
         public int Age
         {
             get;
             set;
         }
-        // Match Phone_Number    
-        [Required(ErrorMessage = "Invalid Conditions")]
+        // User Phone_Number    
+        [Required(ErrorMessage = "Phone number must be entered")]
+        [Display(Name = "Phone Number")]
         public String Phone_Number
         {
             get;
             set;
         }
-        // Match Email    
-        [Required(ErrorMessage = "Invalid Conditions")]
+        // User Email    
+        [Required]
+        [RegularExpression(@".*[@].*[\\.].*", ErrorMessage = "Must contain @ and .")]
         public String Email
         {
             get;
             set;
         }
-        // Match Post_Code    
+        // user Post_Code    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "Post Code")]
         public String Post_Code
         {
             get;
             set;
         }
-        // Match Gender    
+        // User Gender    
         [Required(ErrorMessage = "Invalid Conditions")]
         public String Gender
         {
             get;
             set;
         }
-        // Match Looking_For    
+        // User Looking_For    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "Looking For")]
         public String Looking_For
         {
             get;
             set;
         }
-        // Match Interest_1    
+        // User Interest_1    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "1st Interest")]
         public String Interest_1
         {
             get;
             set;
         }
-        // Match Interest_2    
+        // User Interest_2    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "2nd interest")]
         public String Interest_2
         {
             get;
             set;
         }
-        // Match Interest_1    
+        // User Interest_3    
         [Required(ErrorMessage = "Invalid Conditions")]
+        [Display(Name = "3rd Interest")]
         public String Interest_3
         {
             get;

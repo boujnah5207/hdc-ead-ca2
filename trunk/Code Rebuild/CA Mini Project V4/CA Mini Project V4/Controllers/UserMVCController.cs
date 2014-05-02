@@ -41,6 +41,11 @@ namespace CA_Mini_Project_V4.Controllers
 
         public ActionResult Create()
         {
+            
+            ViewBag.Post_Code = new SelectList(UserInfo.PostCodeOptions);
+            ViewBag.Interest_1 = new SelectList(UserInfo.Interest1Descriptions);
+            ViewBag.Interest_2 = new SelectList(UserInfo.Interest2Descriptions);
+            ViewBag.Interest_3 = new SelectList(UserInfo.Interest3Descriptions);
             return View();
         }
 
@@ -88,6 +93,10 @@ namespace CA_Mini_Project_V4.Controllers
             {
                 return HttpNotFound();
             }
+            ViewBag.Post_Code = new SelectList(UserInfo.PostCodeOptions);
+            ViewBag.Interest_1 = new SelectList(UserInfo.Interest1Descriptions);
+            ViewBag.Interest_2 = new SelectList(UserInfo.Interest2Descriptions);
+            ViewBag.Interest_3 = new SelectList(UserInfo.Interest3Descriptions);
             return View(user);
         }
 
