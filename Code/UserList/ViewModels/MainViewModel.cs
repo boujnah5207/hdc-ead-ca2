@@ -13,8 +13,8 @@ namespace UserList.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        const string apiUrl = @"http://www.contoso.com/api/Users";
-
+        const string apiUrl = @"http://localhost:3242/api/User";
+        
         public MainViewModel()
         {
             this.Items = new ObservableCollection<ItemViewModel>();
