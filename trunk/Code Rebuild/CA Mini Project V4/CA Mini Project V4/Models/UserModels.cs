@@ -129,5 +129,16 @@ namespace CA_Mini_Project_V4.Models
             get;
             set;
         }
+
+        private AzureDatabaseEntities db = new AzureDatabaseEntities();
+
+        public IEnumerable<User> FindMatch(string interest_1)
+        {
+            // query Users with the same Interest
+            var myMatch = from x in db.Users
+                          where x.Interest_1 == interest_1
+                          select x;
+            return myMatch;
+        }
     }
 }

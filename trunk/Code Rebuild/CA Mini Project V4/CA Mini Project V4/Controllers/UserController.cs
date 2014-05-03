@@ -29,7 +29,7 @@ namespace CA_Mini_Project_V4.Controllers
         }
 
         // GET api/User/x09782
-        public User GetUser(string id)
+        public IEnumerable<User> GetUser(string id)
         {
             User user = db.Users.Find(id);
             if (user == null)
@@ -37,7 +37,10 @@ namespace CA_Mini_Project_V4.Controllers
                 throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
             }
 
-            return user;
+            UserInfo userInfo = new UserInfo();
+            IEnumerable<User> userIntrest = userInfo.FindMatch(user.Interest_1);
+
+            return userIntrest;
         }
 
         //the below code was auto generated and can be deleted. leaving it in place for the moment ifn case we want to add more funcionality
