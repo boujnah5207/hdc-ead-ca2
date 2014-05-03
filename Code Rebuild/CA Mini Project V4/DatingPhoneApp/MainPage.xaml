@@ -51,12 +51,12 @@
         <!--ContentPanel contains LongListSelector and LongListSelector ItemTemplate. Place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Button x:Name="MyButton" Content="Find a Date!" Width="200" Height="100" VerticalAlignment="Top"  Click="MyButton_Click"/>
-            <phone:LongListSelector x:Name="userList" Margin="0,-40,-12,40" ItemsSource="{Binding Items}" SelectionChanged="MainLongListSelector_SelectionChanged">
+            <phone:LongListSelector x:Name="userList"  Margin="0,-40,-12,40" ItemsSource="{Binding Items}">
                 <phone:LongListSelector.ItemTemplate>
                     <DataTemplate>
                       <StackPanel Orientation="Horizontal">
-                          <TextBlock Text="{Binding Name}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
-                          <TextBlock Text="{Binding Phone_Number}" TextWrapping="Wrap" Margin="12,-6,12,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                          <TextBlock Text="{Binding Name}" />
+                          <TextBlock Text="{Binding Phone_Number}" />
                       </StackPanel>
                     </DataTemplate>
                 </phone:LongListSelector.ItemTemplate>

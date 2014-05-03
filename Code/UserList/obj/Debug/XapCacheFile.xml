@@ -1,14 +1,24 @@
-﻿<xapCache source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\UserList_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="28/04/2014 00:13:31">
-  <file source="C:\Users\Louise\Documents\Project\Code\UserList\obj\Debug\UserList.dll" archivePath="UserList.dll" lastWriteTime="28/04/2014 00:13:17" />
+﻿<xapCache source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\UserList_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="03/05/2014 15:24:36">
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\obj\Debug\UserList.dll" archivePath="UserList.dll" lastWriteTime="03/05/2014 15:24:34" />
   <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="25/04/2014 13:53:07" />
   <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="25/04/2014 13:53:07" />
   <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="25/04/2014 13:53:07" />
   <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="25/04/2014 13:53:07" />
   <file source="C:\Users\Louise\Documents\Project\Code\UserList\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="25/04/2014 13:53:07" />
-  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="28/04/2014 00:13:31" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Content\bootstrap-theme.css" archivePath="Content\bootstrap-theme.css" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Content\bootstrap-theme.min.css" archivePath="Content\bootstrap-theme.min.css" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Content\bootstrap.css" archivePath="Content\bootstrap.css" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Content\bootstrap.min.css" archivePath="Content\bootstrap.min.css" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\fonts\glyphicons-halflings-regular.svg" archivePath="fonts\glyphicons-halflings-regular.svg" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Scripts\bootstrap.js" archivePath="Scripts\bootstrap.js" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Scripts\bootstrap.min.js" archivePath="Scripts\bootstrap.min.js" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Scripts\jquery-1.9.0.intellisense.js" archivePath="Scripts\jquery-1.9.0.intellisense.js" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Scripts\jquery-1.9.0.js" archivePath="Scripts\jquery-1.9.0.js" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Scripts\jquery-1.9.0.min.js" archivePath="Scripts\jquery-1.9.0.min.js" lastWriteTime="28/04/2014 14:01:47" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="03/05/2014 15:24:35" />
   <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="25/04/2014 13:53:07" />
   <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="25/04/2014 13:53:07" />
   <file source="C:\Users\Louise\Documents\Project\Code\packages\Newtonsoft.Json.6.0.2\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="16/04/2014 15:56:09" />
   <file source="C:\Users\Louise\Documents\Project\Code\packages\Newtonsoft.Json.6.0.2\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="16/04/2014 15:56:09" />
-  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="28/04/2014 00:13:31" />
+  <file source="C:\Users\Louise\Documents\Project\Code\UserList\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="03/05/2014 15:24:35" />
 </xapCache>
