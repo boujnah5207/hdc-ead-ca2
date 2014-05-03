@@ -18,7 +18,7 @@ namespace DatingPhoneApp
     public partial class MainPage : PhoneApplicationPage
     {
         // URI for RESTful service (implemented using Web API)
-        private const String serviceURI = "http://ITTDating.cloudapp.net/api/User";
+        private const String serviceURI = "http://ITTDating.cloudapp.net/";
 
         //Constructor
         public MainPage()
@@ -65,6 +65,10 @@ namespace DatingPhoneApp
                 //;
             }
         }
+
+
+        
+        }
     }
-}
+
 
