@@ -2,16 +2,24 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using DatingPhoneApp.Resources;
+using CA_Mini_Project_V4.Models;
 
 namespace DatingPhoneApp.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
+        //url for onnline database
         const string apiUrl = @"ITTDating.cloudapp.net/api/User";
-        public MainViewModel()
+
+        // gets a collection of Users
+        public ObservableCollection<UserInfo> UserCollection
         {
-            this.Items = new ObservableCollection<ItemViewModel>();
+            get;
+            private set;
         }
+        
+      
+        
 
         /// <summary>
         /// A collection for ItemViewModel objects.
