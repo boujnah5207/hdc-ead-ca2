@@ -1,4 +1,6 @@
-﻿using CA_Mini_Project_V4.Models;
+﻿//This is an ASP.NET MVC 4 controller designed to generate a user interface through which the CRUD functionalities can be performed.
+
+using CA_Mini_Project_V4.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,14 +40,14 @@ namespace CA_Mini_Project_V4.Controllers
             return View(db.Users.ToList());
         }
 
-
+        //this method creates a new entry in the database for a user. 
         public ActionResult Create()
         {
             
-            ViewBag.Post_Code = new SelectList(UserInfo.PostCodeOptions);
-            ViewBag.Interest_1 = new SelectList(UserInfo.Interest1Descriptions);
-            ViewBag.Interest_2 = new SelectList(UserInfo.Interest2Descriptions);
-            ViewBag.Interest_3 = new SelectList(UserInfo.Interest3Descriptions);
+            ViewBag.Post_Code = new SelectList(UserInfo.PostCodeOptions);//drop down box for Post Code
+            ViewBag.Interest_1 = new SelectList(UserInfo.Interest1Descriptions); //drop down box for interest
+            ViewBag.Interest_2 = new SelectList(UserInfo.Interest2Descriptions); //drop down box for interest
+            ViewBag.Interest_3 = new SelectList(UserInfo.Interest3Descriptions); //drop down box for interest
             return View();
         }
 

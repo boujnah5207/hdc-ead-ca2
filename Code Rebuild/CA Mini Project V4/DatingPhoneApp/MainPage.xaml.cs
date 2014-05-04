@@ -42,7 +42,7 @@ namespace DatingPhoneApp
 
                     // GET ../api/User
                     // get all stock Users asynchronously - await the result (i.e. block and return control to caller)
-                    HttpResponseMessage response = await client.GetAsync("api/User");
+                    HttpResponseMessage response = await client.GetAsync("api/User/x09783");
 
                     // continue
                     if (response.IsSuccessStatusCode)                                                   // 200.299

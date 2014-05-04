@@ -1,4 +1,7 @@
-﻿using System;
+﻿//This is an API RESTful Web service controller designed to connect to a Windows Phone Silverlight Project. 
+//This controller contains the methods which retrieve data from a MicroSoft Azure Database.
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
