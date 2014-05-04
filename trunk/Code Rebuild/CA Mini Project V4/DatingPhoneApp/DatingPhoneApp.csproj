@@ -123,6 +123,10 @@
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
     </None>
+    <None Include="ViewModels\User.edmx" />
+    <None Include="ViewModels\User.edmx.diagram">
+      <DependentUpon>User.edmx</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\AlignmentGrid.png" />

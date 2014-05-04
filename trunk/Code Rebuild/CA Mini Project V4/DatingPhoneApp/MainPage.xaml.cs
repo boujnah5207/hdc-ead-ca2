@@ -49,10 +49,10 @@ namespace DatingPhoneApp
                     {
                         // read result and display on UI
 
-                        var users = await response.Content.ReadAsAsync<IEnumerable<UserInfo>>();
+                        var Users = await response.Content.ReadAsAsync<IEnumerable<UserInfo>>();
 
                         // set the data source for the priceList long list selector
-                        userList.ItemsSource = new ObservableCollection<UserInfo>(users);
+                        userList.ItemsSource = new ObservableCollection<UserInfo>(Users);
                     }
                     else
                     {
@@ -64,6 +64,18 @@ namespace DatingPhoneApp
             {
                 //;
             }
+        }
+
+        private void userList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // If selected item is null, do nothing
+            if (userList.SelectedItem == null)
+                return;
+
+
+            // Reset selected item to null
+            userList.SelectedItem = null;
+
         }
 
 
