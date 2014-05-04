@@ -6,10 +6,13 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.XPath;
 using System.Web;
+using System.Data.Entity;
 
 
 namespace CA_Mini_Project_V4.Models
 {
+
+
     // a class to hold the details of the dating website users
     public class UserInfo
     {
@@ -46,7 +49,7 @@ namespace CA_Mini_Project_V4.Models
         }
 
         // User ID 
-        [Required(ErrorMessage = "Not a Valid ID")]
+        [Required(ErrorMessage = "Not a Valid ID")] // not null or empty string, not enforced automatically
         public string ID
         {
             get;
@@ -61,11 +64,28 @@ namespace CA_Mini_Project_V4.Models
         }
         // User Age
         [Range(18, 200, ErrorMessage = "Not a Valid Age")]
+        private int age;
         public int Age
         {
-            get;
-            set;
+            get
+            {
+                return age;
+            }
+            set
+            {
+                // validate input
+                if (value > 18)
+                {
+                    age = value;
+                }
+                else
+                {
+                    throw new ArgumentException("User must be over 18");
+                }
+            }
         }
+
+         
         // User Phone_Number    
         [Required(ErrorMessage = "Phone number must be entered")]
         [Display(Name = "Phone Number")]
@@ -75,6 +95,7 @@ namespace CA_Mini_Project_V4.Models
             set;
         }
         // User Email    
+        [EmailAddress]
         [Required]
         [RegularExpression(@".*[@].*[\\.].*", ErrorMessage = "Must contain @ and .")]
         public String Email
