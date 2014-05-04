@@ -26,24 +26,26 @@ namespace CA_Mini_Project_V4.Controllers
         private AzureDatabaseEntities db = new AzureDatabaseEntities();
 
         // GET api/User
+        // gets all users from the database
         public IEnumerable<User> GetUsers()
         {
             return db.Users.AsEnumerable();
         }
 
         // GET api/User/x09782
+        // gets a particular user from the database based on ID
         public IEnumerable<User> GetUser(string id)
         {
             User user = db.Users.Find(id);
             if (user == null)
             {
-                throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
+                throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));  // translated into a http response status code 404
             }
 
             UserInfo userInfo = new UserInfo();
             IEnumerable<User> userIntrest = userInfo.FindMatch(user.Interest_1);
 
-            return userIntrest;
+            return userIntrest; // 200 OK, ID serialized in response body
         }
 
         //the below code was auto generated and can be deleted. leaving it in place for the moment ifn case we want to add more funcionality

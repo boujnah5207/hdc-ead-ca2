@@ -40,10 +40,11 @@ namespace CA_Mini_Project_V4.Controllers
             return View(db.Users.ToList());
         }
 
-        //this method creates a new entry in the database for a user. 
+       // this method creates a new entry in the database for a user. 
+       
         public ActionResult Create()
         {
-            
+
             ViewBag.Post_Code = new SelectList(UserInfo.PostCodeOptions);//drop down box for Post Code
             ViewBag.Interest_1 = new SelectList(UserInfo.Interest1Descriptions); //drop down box for interest
             ViewBag.Interest_2 = new SelectList(UserInfo.Interest2Descriptions); //drop down box for interest
@@ -60,6 +61,7 @@ namespace CA_Mini_Project_V4.Controllers
             if (ModelState.IsValid)
             {
                 db.Users.Add(user);
+                db.Entry(user).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }

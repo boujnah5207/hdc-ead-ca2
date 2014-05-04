@@ -41,8 +41,8 @@ namespace DatingPhoneApp
                         Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                     // GET ../api/User
-                    // get all stock Users asynchronously - await the result (i.e. block and return control to caller)
-                    HttpResponseMessage response = await client.GetAsync("api/User/x09783");
+                    // get all Users asynchronously - await the result (i.e. block and return control to caller)
+                    HttpResponseMessage response = await client.GetAsync("api/User/x09783");   // accessing the result property blocks
 
                     // continue
                     if (response.IsSuccessStatusCode)                                                   // 200.299
