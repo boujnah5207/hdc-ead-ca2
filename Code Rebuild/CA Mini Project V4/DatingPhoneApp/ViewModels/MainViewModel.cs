@@ -7,6 +7,7 @@ namespace DatingPhoneApp.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
+        const string apiUrl = @"ITTDating.cloudapp.net/api/User";
         public MainViewModel()
         {
             this.Items = new ObservableCollection<ItemViewModel>();
