@@ -7,6 +7,7 @@ using System.Xml.Linq;
 using System.Xml.XPath;
 using System.Web;
 using System.Data.Entity;
+using System.Web.Mvc;
 
 
 namespace CA_Mini_Project_V4.Models
@@ -14,7 +15,8 @@ namespace CA_Mini_Project_V4.Models
 
 
     // a class to hold the details of the dating website users
-    public class UserInfo
+   
+    public partial class UserInfo
     {
 
         public static string[] PostCodeOptions

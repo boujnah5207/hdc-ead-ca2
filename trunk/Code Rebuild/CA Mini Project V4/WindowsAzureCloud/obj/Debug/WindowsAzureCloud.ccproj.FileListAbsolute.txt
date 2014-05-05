@@ -203,3 +203,5 @@ G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\Wind
 G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Debug\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.OData.resources.dll
 G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Debug\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
 G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Debug\CA Mini Project V4\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\bin\Debug\ServiceDefinition.csdef

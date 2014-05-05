@@ -101,4 +101,6 @@ C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\CA Mini Projec
 C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\CA Mini Project V4\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\CA Mini Project V4\obj\Debug\CA Mini Project V4.dll
 C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\CA Mini Project V4\obj\Debug\CA Mini Project V4.pdb
-C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\CA Mini Project V4\obj\Debug\CA Mini Project V4.csprojResolveAssemblyReference.cache
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\CA Mini Project V4\obj\Debug\CA_Mini_Project_V4.Migrations.Migration1.resources
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\CA Mini Project V4\obj\Debug\CA Mini Project V4.csproj.GenerateResource.Cache
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\CA Mini Project V4\bin\ModelMetadataExtensions.dll
