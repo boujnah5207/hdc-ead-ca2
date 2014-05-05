@@ -13,7 +13,7 @@ using System.Web;
 namespace CA_Mini_Project_V4.Models
 {
     // a class to hold the details of the dating website users
-    public class UserInfo
+    public partial class UserInfo
     {
 
         public static string[] PostCodeOptions

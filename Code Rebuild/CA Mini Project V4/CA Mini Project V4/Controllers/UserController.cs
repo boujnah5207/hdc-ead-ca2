@@ -33,7 +33,7 @@ namespace CA_Mini_Project_V4.Controllers
         }
 
         // GET api/User/x09782
-        // gets a particular user from the database based on ID
+        // gets a particular user from the database based on Interest
         public IEnumerable<User> GetUser(string id)
         {
             User user = db.Users.Find(id);
@@ -47,81 +47,84 @@ namespace CA_Mini_Project_V4.Controllers
 
             return userIntrest; // 200 OK, ID serialized in response body
         }
+    }
+}
+
 
         //the below code was auto generated and can be deleted. leaving it in place for the moment ifn case we want to add more funcionality
 
         // PUT api/User/5
-        public HttpResponseMessage PutUser(string id, User user)
-        {
-            if (!ModelState.IsValid)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-            }
+//        public HttpResponseMessage PutUser(string id, User user)
+//        {
+//            if (!ModelState.IsValid)
+//            {
+//                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+//            }
 
-            if (id != user.ID)
-            {
-                return Request.CreateResponse(HttpStatusCode.BadRequest);
-            }
+//            if (id != user.ID)
+//            {
+//                return Request.CreateResponse(HttpStatusCode.BadRequest);
+//            }
 
-            db.Entry(user).State = EntityState.Modified;
+//            db.Entry(user).State = EntityState.Modified;
 
-            try
-            {
-                db.SaveChanges();
-            }
-            catch (DbUpdateConcurrencyException ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex);
-            }
+//            try
+//            {
+//                db.SaveChanges();
+//            }
+//            catch (DbUpdateConcurrencyException ex)
+//            {
+//                return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex);
+//            }
 
-            return Request.CreateResponse(HttpStatusCode.OK);
-        }
+//            return Request.CreateResponse(HttpStatusCode.OK);
+//        }
 
-        // POST api/User
-        public HttpResponseMessage PostUser(User user)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Users.Add(user);
-                db.SaveChanges();
+//        // POST api/User
+//        public HttpResponseMessage PostUser(User user)
+//        {
+//            if (ModelState.IsValid)
+//            {
+//                db.Users.Add(user);
+//                db.SaveChanges();
 
-                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, user);
-                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = user.ID }));
-                return response;
-            }
-            else
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-            }
-        }
+//                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, user);
+//                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = user.ID }));
+//                return response;
+//            }
+//            else
+//            {
+//                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+//            }
+//        }
 
-        // DELETE api/User/5
-        public HttpResponseMessage DeleteUser(string id)
-        {
-            User user = db.Users.Find(id);
-            if (user == null)
-            {
-                return Request.CreateResponse(HttpStatusCode.NotFound);
-            }
+//        // DELETE api/User/5
+//        public HttpResponseMessage DeleteUser(string id)
+//        {
+//            User user = db.Users.Find(id);
+//            if (user == null)
+//            {
+//                return Request.CreateResponse(HttpStatusCode.NotFound);
+//            }
 
-            db.Users.Remove(user);
+//            db.Users.Remove(user);
 
-            try
-            {
-                db.SaveChanges();
-            }
-            catch (DbUpdateConcurrencyException ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex);
-            }
+//            try
+//            {
+//                db.SaveChanges();
+//            }
+//            catch (DbUpdateConcurrencyException ex)
+//            {
+//                return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex);
+//            }
 
-            return Request.CreateResponse(HttpStatusCode.OK, user);
-        }
+//            return Request.CreateResponse(HttpStatusCode.OK, user);
+//        }
 
-        protected override void Dispose(bool disposing)
-        {
-            db.Dispose();
-            base.Dispose(disposing);
-        }
-    }
-}
+//        protected override void Dispose(bool disposing)
+//        {
+//            db.Dispose();
+//            base.Dispose(disposing);
+//        }
+//    }
+//}

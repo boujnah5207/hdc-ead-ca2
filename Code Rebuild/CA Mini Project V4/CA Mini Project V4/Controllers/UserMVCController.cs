@@ -17,6 +17,7 @@ using System.Net.Http.Headers;
 using System.IO;
 using System.Text;
 using Newtonsoft.Json;
+using System.Data.Entity.Validation;
 
 using System.Transactions;
 
@@ -42,6 +43,7 @@ namespace CA_Mini_Project_V4.Controllers
 
        // this method creates a new entry in the database for a user. 
        
+        [HttpGet]
         public ActionResult Create()
         {
 
@@ -58,18 +60,31 @@ namespace CA_Mini_Project_V4.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,Name,Age,Phone_Number,Email,Post_Code,Gender,Looking_For,Interest_1,Interest_2,Interest_3")] User user)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Users.Add(user);
-                db.Entry(user).State = EntityState.Modified;
+
+            if (ModelState.IsValid)
+            {                
+                db.Users.Add(user);               
                 db.SaveChanges();
+                //db.Entry(user).State = EntityState.Modified;
                 return RedirectToAction("Index");
             }
 
-            return View(user);
+            else
+             {
+                 ModelState.AddModelError("", "Registration criteria not met");
+             }
+         }
+         catch (FormatException)
+         {
+             ModelState.AddModelError("", "Registration criteria not met");
+         }
+         return View();
+            
         }
 
-
+       
         // GET: UserMVC/Details/5
         public ActionResult Details(string id)
         {
