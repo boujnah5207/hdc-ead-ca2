@@ -23,5 +23,10 @@
     <Imports>
       <Import moduleName="Diagnostics" />
     </Imports>
+    <Contents>
+      <Content destination=".\">
+        <SourceDirectory path="G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\rcf\Debug\CA Mini Project V4Content\" />
+      </Content>
+    </Contents>
   </WebRole>
 </ServiceDefinition>
