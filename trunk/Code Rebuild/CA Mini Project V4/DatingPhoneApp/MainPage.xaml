@@ -29,7 +29,7 @@
         <!--ContentPanel - place additional content here-->
         <ScrollViewer x:Name="ContentGrid" Grid.Row="1" VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.523,0.265" HorizontalAlignment="Right" Width="480">
             <Grid Name="grid1">
-                <Button Content="Get A Date!" Height="70" HorizontalAlignment="Center" Margin="127,10,144,0" Name="displayButton" VerticalAlignment="Top" Width="209" Click="MyButton_Click"/>
+              <Button Content="Get A Date!" Height="70" HorizontalAlignment="Center" Margin="127,10,144,0" Name="displayButton" VerticalAlignment="Top" Width="209" Click="MyButton_Click"/>
                 <phone:LongListSelector Name="userList" HorizontalAlignment="Center" Height="300" Margin="52,108,0,0" VerticalAlignment="Center" Width="373" IsGroupingEnabled="False" >
                     <phone:LongListSelector.ItemTemplate>
                         <DataTemplate>

@@ -79,3 +79,7 @@ C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp
 C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\DatingPhoneApp.dll
 C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\DatingPhoneApp.pdb
 C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\XapCacheFile.xml
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\Bin\Debug\DatingPhoneApp.dll.config
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\Bin\Debug\Microsoft.Phone.Toolkit.Testing.dll
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\Bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTesting.Phone.dll
+C:\Users\Louise\Documents\Project\Code Rebuild\CA Mini Project V4\DatingPhoneApp\obj\Debug\DatingPhoneApp.StringLibrary.resources
