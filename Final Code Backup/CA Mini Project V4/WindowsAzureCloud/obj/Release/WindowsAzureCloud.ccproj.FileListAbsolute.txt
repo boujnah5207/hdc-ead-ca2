@@ -1,0 +1,357 @@
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\bin\Release\ServiceConfiguration.cscfg
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\bin\Release\ServiceDefinition.csdef
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\bin\Release\ValidationIssues.xml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Antlr3.Runtime.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\CA Mini Project V4.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\de\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\de\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\de\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\de\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.AspNet.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.Core.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.OAuth.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.OpenId.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\EntityFramework.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\es\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\es\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\es\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\es\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\fr\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\fr\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\fr\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\it\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\it\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\it\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\it\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ja\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ja\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ja\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ko\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ko\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ko\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Data.Edm.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Data.OData.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Data.Services.Client.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Web.Infrastructure.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.WindowsAzure.Configuration.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.WindowsAzure.Diagnostics.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.WindowsAzure.Storage.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Newtonsoft.Json.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ru\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ru\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ru\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Net.Http.Formatting.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Spatial.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Helpers.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Http.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Http.OData.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Http.WebHost.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Mvc.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Optimization.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Razor.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.WebPages.Deployment.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.WebPages.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.WebPages.Razor.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\WebGrease.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\WebMatrix.Data.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\WebMatrix.WebData.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hans\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hant\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\Site.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_222222_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_2e83ff_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_454545_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_888888_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_cd0a0a_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery-ui.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.accordion.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.all.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.autocomplete.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.base.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.button.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.core.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.datepicker.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.dialog.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.progressbar.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.resizable.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.selectable.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.slider.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.tabs.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.theme.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_222222_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_454545_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_888888_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery-ui.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.accordion.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.autocomplete.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.button.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.core.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.datepicker.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.dialog.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.progressbar.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.resizable.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.selectable.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.slider.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.tabs.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.theme.min.css
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\favicon.ico
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Global.asax
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\accent.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\bullet.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\heroAccent.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList0.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList1.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList2.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList3.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList4.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList5.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList6.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList7.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList8.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList9.png
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Models\User.edmx.diagram
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\packages.config
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery-1.8.2.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery-1.8.2.min.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery-ui-1.8.24.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery-ui-1.8.24.min.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.unobtrusive-ajax.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.unobtrusive-ajax.min.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.validate.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.validate.min.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.validate.unobtrusive.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.validate.unobtrusive.min.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\knockout-2.2.0.debug.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\knockout-2.2.0.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\modernizr-2.6.2.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\_references.js
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\ExternalLoginConfirmation.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\ExternalLoginFailure.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\Login.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\Manage.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\Register.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\_ChangePasswordPartial.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\_ExternalLoginsListPartial.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\_RemoveExternalLoginsPartial.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Account\_SetPasswordPartial.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Home\About.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Home\Contact.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Home\Index.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Shared\Error.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Shared\_Layout.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Shared\_LoginPartial.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Create.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Delete.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Details.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Edit.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Index.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Web.config
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\_ViewStart.cshtml
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Web.config
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\bin\Release\ServiceConfiguration.cscfg
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\bin\Release\ServiceDefinition.csdef
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\bin\Release\ValidationIssues.xml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Antlr3.Runtime.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\CA Mini Project V4.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\de\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\de\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\de\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\de\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.AspNet.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.Core.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.OAuth.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.OpenId.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\EntityFramework.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\es\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\es\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\es\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\es\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\fr\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\fr\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\fr\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\it\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\it\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\it\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\it\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ja\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ja\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ja\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ko\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ko\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ko\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Data.Edm.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Data.OData.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Data.Services.Client.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Web.Infrastructure.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.WindowsAzure.Configuration.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.WindowsAzure.Diagnostics.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Microsoft.WindowsAzure.Storage.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\Newtonsoft.Json.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ru\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ru\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\ru\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Net.Http.Formatting.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Spatial.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Helpers.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Http.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Http.OData.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Http.WebHost.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Mvc.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Optimization.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.Razor.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.WebPages.Deployment.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.WebPages.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\System.Web.WebPages.Razor.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\WebGrease.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\WebMatrix.Data.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\WebMatrix.WebData.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hans\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\bin\zh-Hant\System.Spatial.resources.dll
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\Site.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_222222_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_2e83ff_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_454545_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_888888_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\images\ui-icons_cd0a0a_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery-ui.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.accordion.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.all.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.autocomplete.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.base.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.button.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.core.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.datepicker.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.dialog.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.progressbar.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.resizable.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.selectable.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.slider.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.tabs.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\jquery.ui.theme.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_222222_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_454545_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_888888_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery-ui.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.accordion.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.autocomplete.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.button.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.core.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.datepicker.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.dialog.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.progressbar.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.resizable.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.selectable.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.slider.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.tabs.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Content\themes\base\minified\jquery.ui.theme.min.css
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\favicon.ico
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Global.asax
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\accent.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\bullet.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\heroAccent.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList0.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList1.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList2.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList3.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList4.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList5.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList6.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList7.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList8.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Images\orderedList9.png
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Models\User.edmx.diagram
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\packages.config
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery-1.8.2.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery-1.8.2.min.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery-ui-1.8.24.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery-ui-1.8.24.min.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.unobtrusive-ajax.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.unobtrusive-ajax.min.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.validate.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.validate.min.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.validate.unobtrusive.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\jquery.validate.unobtrusive.min.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\knockout-2.2.0.debug.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\knockout-2.2.0.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\modernizr-2.6.2.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Scripts\_references.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Silverlight.js
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Home\About.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Home\Contact.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Home\Index.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Shared\Error.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Shared\_Layout.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Create.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Delete.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Details.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Edit.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\UserMVC\Index.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\Web.config
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Views\_ViewStart.cshtml
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\obj\Release\CA Mini Project V4\Web.config
