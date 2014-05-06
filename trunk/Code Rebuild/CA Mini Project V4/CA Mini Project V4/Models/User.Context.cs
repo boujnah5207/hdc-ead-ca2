@@ -22,14 +22,9 @@ namespace CA_Mini_Project_V4.Models
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            
-            modelBuilder.Entity<User>().ToTable("UserInfo");
-            // points the EF to model "UserInfo" instead of "User"
             throw new UnintentionalCodeFirstException();
         }
     
         public DbSet<User> Users { get; set; }
-
-        
     }
 }
