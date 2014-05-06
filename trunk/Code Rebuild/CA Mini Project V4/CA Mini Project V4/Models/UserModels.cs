@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Class Model By Colin Walsh x00115912 Louise Foley X00115907
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
