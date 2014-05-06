@@ -12,21 +12,21 @@ namespace CA_Mini_Project_V4.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Message = "Hey Colin";
+            //ViewBag.Message = "test";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            //ViewBag.Message = "Your app description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            //ViewBag.Message = "Your contact page.";
 
             return View();
         }
