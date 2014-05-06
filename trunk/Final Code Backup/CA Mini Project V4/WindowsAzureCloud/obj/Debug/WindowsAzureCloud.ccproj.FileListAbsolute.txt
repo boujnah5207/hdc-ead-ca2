@@ -1,0 +1,4 @@
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\bin\Debug\ServiceConfiguration.cscfg
+G:\College Work\EAM\Term 2\CA Mini Project V4\WindowsAzureCloud\bin\Debug\ServiceDefinition.csdef
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\bin\Debug\ServiceConfiguration.cscfg
+G:\College Work\EAM\Term 2\CA2 Mini Project\Code Rebuild\CA Mini Project V4\WindowsAzureCloud\bin\Debug\ServiceDefinition.csdef
