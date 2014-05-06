@@ -131,7 +131,7 @@ namespace CA_Mini_Project_V4.Models
         }
 
         private AzureDatabaseEntities db = new AzureDatabaseEntities();
-
+        // Method to Find users in the DB with the same interest_1
         public IEnumerable<User> FindMatch(string interest_1)
         {
             // query Users with the same Interest

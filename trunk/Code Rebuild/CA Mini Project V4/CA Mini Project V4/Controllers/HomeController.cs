@@ -9,24 +9,24 @@ namespace CA_Mini_Project_V4.Controllers
 {
     public class HomeController : Controller
     {
-
+        // Homepage Navigation
         public ActionResult Index()
         {
-            //ViewBag.Message = "test";
+            
 
             return View();
         }
-
+        // About Page Navigation
         public ActionResult About()
         {
-            //ViewBag.Message = "Your app description page.";
+           
 
             return View();
         }
-
+        // Contact Page Navigation
         public ActionResult Contact()
         {
-            //ViewBag.Message = "Your contact page.";
+            
 
             return View();
         }
