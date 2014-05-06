@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureCloud" generation="1" functional="0" release="0" Id="f7dd62d6-a3e4-45d3-b050-1ba5d264934e" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureCloud" generation="1" functional="0" release="0" Id="a21aa84a-dae0-4841-a477-9f6e5488b30e" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="WindowsAzureCloudGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -70,9 +70,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="5b02ccea-d52f-4f29-b5cd-f7e2b6c9e3fb" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureCloudContract@ServiceDefinition">
+    <implementation Id="aca5bc8b-2aac-4980-9dc4-f1d29894e172" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureCloudContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="dfc486b2-dbc1-4e43-81ae-3e03631f4da3" ref="Microsoft.RedDog.Contract\Interface\CA Mini Project V4:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="495abbe6-4d88-49e8-b003-c6edbe372826" ref="Microsoft.RedDog.Contract\Interface\CA Mini Project V4:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/WindowsAzureCloud/WindowsAzureCloudGroup/CA Mini Project V4:Endpoint1" />
           </inPort>
