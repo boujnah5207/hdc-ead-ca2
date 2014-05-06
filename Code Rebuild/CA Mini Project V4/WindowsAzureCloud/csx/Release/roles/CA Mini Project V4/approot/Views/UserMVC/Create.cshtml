@@ -66,8 +66,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Gender, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.RadioButtonFor(model => model.Gender, "Male", true)
-                @Html.RadioButtonFor(model => model.Gender, "Female", false)
+                @Html.RadioButtonFor(model => model.Gender, "Male", true)Male;
+                @Html.RadioButtonFor(model => model.Gender, "Female", false)Female;
                 @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -75,8 +75,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Looking_For, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.RadioButtonFor(model => model.Looking_For, "Male", true)
-                @Html.RadioButtonFor(model => model.Looking_For, "Female", false)
+                @Html.RadioButtonFor(model => model.Looking_For, "Male", true)Male;
+                @Html.RadioButtonFor(model => model.Looking_For, "Female", false)Female;
                 @Html.ValidationMessageFor(model => model.Looking_For, "", new { @class = "text-danger" })
             </div>
         </div>
